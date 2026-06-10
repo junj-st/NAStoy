@@ -48,23 +48,19 @@ Run RL-based search on MNIST:
 python experiments/mnist_rl.py
 ```
 
-## Project Structure
-
+Run random search on CIFAR-10:
+```bash
+python experiments/cifar10_random.py
 ```
-nas-toy/
-├── nas/                      # Core NAS implementation
-│   ├── search_space.py       # Architecture encoding and model building
-│   ├── evaluator.py          # Training and evaluation with caching
-│   ├── proxy.py              # Zero-cost proxy estimators
-│   ├── viz.py                # Visualization utilities
-│   └── strategies/           # Search strategies
-│       ├── random_search.py
-│       ├── evolutionary.py
-│       └── rl_controller.py
-├── experiments/              # Experiment scripts
-├── configs/                  # YAML configuration files
-├── tests/                    # Unit tests
-└── results/                  # Generated results and plots
+
+Run evolutionary search on CIFAR-10:
+```bash
+python experiments/cifar10_evolutionary.py
+```
+
+Run RL-based search on CIFAR-10:
+```bash
+python experiments/cifar10_rl.py
 ```
 
 ## Analysis

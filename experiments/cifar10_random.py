@@ -18,13 +18,78 @@ def main():
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
 
-    print(f"Running random search on CIFAR-10")
-    print(f"Config: {config}")
+    print("=" * 60)
+    print("Random Search on CIFAR-10")
+    print("=" * 60)
+    print(f"Config: {config}\n")
 
-    # TODO: Implement experiment (input_size=3072 for CIFAR-10)
-    # Similar to MNIST but with different input size
+    # Initialize search space (CIFAR-10: 32x32x3 = 3072 input features)
+    search_space = SearchSpace(input_size=3072, output_size=10)
 
-    print("Random search completed!")
+    # Initialize evaluator
+    evaluator = Evaluator(
+        dataset=config['dataset'],
+        train_budget=config['train_budget'],
+        cache_dir=config['cache_dir']
+    )
+
+    # Initialize random search
+    search = RandomSearch(
+        search_space=search_space,
+        evaluator=evaluator,
+        n_evaluations=config['n_evaluations'],
+        seed=config.get('seed')
+    )
+
+    # Run search
+    results = search.search()
+
+    # Prepare results for saving
+    results_data = {
+        'strategy': config['strategy'],
+        'dataset': config['dataset'],
+        'n_evaluations': config['n_evaluations'],
+        'train_budget': config['train_budget'],
+        'results': results,
+        'best_architecture': results[0]
+    }
+
+    # Save results
+    results_file = Path(config['results_file'])
+    results_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(results_file, 'w') as f:
+        json.dump(results_data, f, indent=2)
+    print(f"\n✓ Results saved to {results_file}")
+
+    # Generate visualization
+    plot_file = Path('plots') / 'cifar10_random_trajectory.png'
+    plot_file.parent.mkdir(parents=True, exist_ok=True)
+    viz.plot_search_trajectory(str(results_file), str(plot_file))
+
+    # Print summary
+    print("\n" + "=" * 60)
+    print("SUMMARY")
+    print("=" * 60)
+    best = results[0]
+    print(f"Best architecture found:")
+    print(f"  Validation accuracy: {best['val_acc']:.4f}")
+    print(f"  Train accuracy: {best['train_acc']:.4f}")
+    print(f"  Parameters: {best['n_params']:,}")
+    print(f"  Training time: {best['train_time']:.2f}s")
+    print(f"  Architecture:")
+    print(f"    Layers: {best['config']['n_layers']}")
+    print(f"    Hidden sizes: {best['config']['hidden_sizes']}")
+    print(f"    Activations: {best['config']['activations']}")
+    print(f"    Dropouts: {best['config']['dropouts']}")
+
+    # Print top 5
+    print(f"\nTop 5 architectures:")
+    for i, r in enumerate(results[:5], 1):
+        print(f"  {i}. Acc: {r['val_acc']:.4f}, "
+              f"Params: {r['n_params']:,}, "
+              f"Layers: {r['config']['n_layers']}")
+
+    print("\n✓ Random search on CIFAR-10 completed!")
 
 
 if __name__ == '__main__':
