@@ -81,15 +81,20 @@ class Evaluator:
         return train_loader, val_loader
 
     def _get_cache_key(self, config: Dict) -> str:
-        """Generate cache key from config.
+        """Generate cache key from config and dataset.
 
         Args:
             config: Architecture configuration
 
         Returns:
-            cache_key: SHA256 hash of sorted config
+            cache_key: SHA256 hash of dataset + sorted config
         """
-        config_str = json.dumps(config, sort_keys=True)
+        # Include dataset in cache key to prevent collisions
+        cache_data = {
+            'dataset': self.dataset,
+            'config': config
+        }
+        config_str = json.dumps(cache_data, sort_keys=True)
         return hashlib.sha256(config_str.encode()).hexdigest()
 
     def _load_from_cache(self, cache_key: str) -> Optional[Dict]:

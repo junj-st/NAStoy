@@ -1,0 +1,2338 @@
+{
+  "strategy": "random",
+  "dataset": "mnist",
+  "n_evaluations": 100,
+  "train_budget": 10,
+  "results": [
+    {
+      "val_acc": 0.9816,
+      "train_acc": 0.9828166666666667,
+      "train_time": 31.006174087524414,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.3
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9815,
+      "train_acc": 0.9876666666666667,
+      "train_time": 25.72699213027954,
+      "n_params": 209514,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          32
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9815,
+      "train_acc": 0.9827333333333333,
+      "train_time": 32.48775887489319,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9806,
+      "train_acc": 0.98315,
+      "train_time": 40.79825305938721,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9801,
+      "train_acc": 0.988,
+      "train_time": 27.733542919158936,
+      "n_params": 136074,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          128,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.98,
+      "train_acc": 0.9924166666666666,
+      "train_time": 29.44525694847107,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9799,
+      "train_acc": 0.9886666666666667,
+      "train_time": 22.779518842697144,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9798,
+      "train_acc": 0.9824333333333334,
+      "train_time": 26.817080974578857,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9796,
+      "train_acc": 0.98255,
+      "train_time": 36.004353046417236,
+      "n_params": 209514,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          32
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9795,
+      "train_acc": 0.98955,
+      "train_time": 29.289538145065308,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9795,
+      "train_acc": 0.98,
+      "train_time": 26.354684829711914,
+      "n_params": 104938,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          128,
+          32
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9793,
+      "train_acc": 0.9827666666666667,
+      "train_time": 26.286394834518433,
+      "n_params": 136074,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          128,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9792,
+      "train_acc": 0.9832666666666666,
+      "train_time": 32.044599771499634,
+      "n_params": 136074,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          128,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9791,
+      "train_acc": 0.9869,
+      "train_time": 26.5021231174469,
+      "n_params": 236618,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          64,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9791,
+      "train_acc": 0.9824833333333334,
+      "train_time": 30.57511305809021,
+      "n_params": 209514,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          32
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9788,
+      "train_acc": 0.97985,
+      "train_time": 33.3301899433136,
+      "n_params": 207850,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          256,
+          256,
+          32
+        ],
+        "activations": [
+          "sigmoid",
+          "relu",
+          "tanh",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9786,
+      "train_acc": 0.9800833333333333,
+      "train_time": 37.72126603126526,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9785,
+      "train_acc": 0.9899333333333333,
+      "train_time": 28.45534086227417,
+      "n_params": 207850,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          256,
+          256,
+          32
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.1,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9784,
+      "train_acc": 0.9804333333333334,
+      "train_time": 32.19825196266174,
+      "n_params": 113290,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          32,
+          128,
+          32
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.2,
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9783,
+      "train_acc": 0.9941333333333333,
+      "train_time": 26.175915956497192,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9783,
+      "train_acc": 0.9811333333333333,
+      "train_time": 33.46398091316223,
+      "n_params": 235146,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9782,
+      "train_acc": 0.9796833333333334,
+      "train_time": 41.91997218132019,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9781,
+      "train_acc": 0.9719,
+      "train_time": 31.09788489341736,
+      "n_params": 121450,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          128,
+          32
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.978,
+      "train_acc": 0.9947833333333334,
+      "train_time": 25.98159098625183,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 5
+    },
+    {
+      "val_acc": 0.9779,
+      "train_acc": 0.9855666666666667,
+      "train_time": 31.68843722343445,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9778,
+      "train_acc": 0.9820166666666666,
+      "train_time": 25.005836963653564,
+      "n_params": 175306,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          256,
+          128,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.2,
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 4
+    },
+    {
+      "val_acc": 0.9777,
+      "train_acc": 0.97765,
+      "train_time": 30.150578022003174,
+      "n_params": 259274,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          128,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.3,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 5
+    },
+    {
+      "val_acc": 0.9775,
+      "train_acc": 0.9736,
+      "train_time": 25.520814895629883,
+      "n_params": 222218,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          64,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9774,
+      "train_acc": 0.9757833333333333,
+      "train_time": 38.90837502479553,
+      "n_params": 288010,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          256,
+          64,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9774,
+      "train_acc": 0.9776333333333334,
+      "train_time": 35.83940505981445,
+      "n_params": 283850,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9774,
+      "train_acc": 0.9749166666666667,
+      "train_time": 38.154778242111206,
+      "n_params": 244522,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          64,
+          32
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.3,
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9773,
+      "train_acc": 0.9743833333333334,
+      "train_time": 33.62541198730469,
+      "n_params": 169162,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          256,
+          64,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.0,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9772,
+      "train_acc": 0.98695,
+      "train_time": 27.110065698623657,
+      "n_params": 167690,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          256,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 5
+    },
+    {
+      "val_acc": 0.977,
+      "train_acc": 0.98,
+      "train_time": 27.33931279182434,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9769,
+      "train_acc": 0.9774166666666667,
+      "train_time": 33.89920687675476,
+      "n_params": 235146,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9765,
+      "train_acc": 0.98525,
+      "train_time": 32.043060064315796,
+      "n_params": 59850,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          64,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9765,
+      "train_acc": 0.9851833333333333,
+      "train_time": 33.7938711643219,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9758,
+      "train_acc": 0.9785833333333334,
+      "train_time": 28.78942322731018,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9758,
+      "train_acc": 0.9785833333333334,
+      "train_time": 28.78942322731018,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9751,
+      "train_acc": 0.9767166666666667,
+      "train_time": 29.65656590461731,
+      "n_params": 123882,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          128,
+          32,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "relu",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.975,
+      "train_acc": 0.9764333333333334,
+      "train_time": 30.42817187309265,
+      "n_params": 142474,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          64,
+          256,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9747,
+      "train_acc": 0.9678666666666667,
+      "train_time": 24.2582790851593,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9745,
+      "train_acc": 0.9879333333333333,
+      "train_time": 26.18368911743164,
+      "n_params": 76362,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          64,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9744,
+      "train_acc": 0.9716333333333333,
+      "train_time": 33.174968004226685,
+      "n_params": 55050,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          64,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9742,
+      "train_acc": 0.9688166666666667,
+      "train_time": 27.0558762550354,
+      "n_params": 116330,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          32,
+          64,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.974,
+      "train_acc": 0.9697333333333333,
+      "train_time": 26.925861120224,
+      "n_params": 69450,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          64,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9738,
+      "train_acc": 0.9915666666666667,
+      "train_time": 20.751187086105347,
+      "n_params": 219818,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          64,
+          32
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 4
+    },
+    {
+      "val_acc": 0.9735,
+      "train_acc": 0.9742,
+      "train_time": 27.040544033050537,
+      "n_params": 109386,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          128,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9734,
+      "train_acc": 0.9807166666666667,
+      "train_time": 25.05147910118103,
+      "n_params": 64010,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          64,
+          64,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.0,
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9733,
+      "train_acc": 0.9747833333333333,
+      "train_time": 27.217111110687256,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9733,
+      "train_acc": 0.9747833333333333,
+      "train_time": 27.217111110687256,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9733,
+      "train_acc": 0.9735833333333334,
+      "train_time": 38.52029013633728,
+      "n_params": 240746,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          32,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "tanh",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3,
+          0.0,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9726,
+      "train_acc": 0.9614333333333334,
+      "train_time": 26.081256866455078,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9719,
+      "train_acc": 0.9484333333333334,
+      "train_time": 28.925217866897583,
+      "n_params": 142058,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          256,
+          32
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9718,
+      "train_acc": 0.9699666666666666,
+      "train_time": 28.51274585723877,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9716,
+      "train_acc": 0.9681333333333333,
+      "train_time": 30.428449153900146,
+      "n_params": 201994,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          256,
+          128,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9713,
+      "train_acc": 0.9709,
+      "train_time": 26.956613063812256,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9709,
+      "train_acc": 0.9666333333333333,
+      "train_time": 29.58805513381958,
+      "n_params": 105226,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          64,
+          256,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.2,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9706,
+      "train_acc": 0.9743166666666667,
+      "train_time": 23.335542917251587,
+      "n_params": 69450,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          64,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 5
+    },
+    {
+      "val_acc": 0.9705,
+      "train_acc": 0.965,
+      "train_time": 31.755099773406982,
+      "n_params": 127946,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          64,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.3,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9703,
+      "train_acc": 0.9862666666666666,
+      "train_time": 25.611827850341797,
+      "n_params": 64394,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          32,
+          32,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.97,
+      "train_acc": 0.9603333333333334,
+      "train_time": 30.624082803726196,
+      "n_params": 94154,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          64,
+          128,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9692,
+      "train_acc": 0.9866333333333334,
+      "train_time": 24.286930322647095,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9686,
+      "train_acc": 0.9612833333333334,
+      "train_time": 34.47260284423828,
+      "n_params": 230506,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          32,
+          64,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.3,
+          0.0,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9682,
+      "train_acc": 0.9608166666666667,
+      "train_time": 26.52200698852539,
+      "n_params": 67466,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          64,
+          128,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9678,
+      "train_acc": 0.9617,
+      "train_time": 26.626970052719116,
+      "n_params": 56138,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          32,
+          32,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.0,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9666,
+      "train_acc": 0.97545,
+      "train_time": 21.475751161575317,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9662,
+      "train_acc": 0.9581,
+      "train_time": 6.95369029045105,
+      "n_params": 125930,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          32,
+          64,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.9661,
+      "train_acc": 0.9547333333333333,
+      "train_time": 30.707172870635986,
+      "n_params": 32042,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          32,
+          64,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9656,
+      "train_acc": 0.97365,
+      "train_time": 21.239531993865967,
+      "n_params": 31690,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          32,
+          32,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 4
+    },
+    {
+      "val_acc": 0.9653,
+      "train_acc": 0.9755166666666667,
+      "train_time": 27.990932941436768,
+      "n_params": 167722,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          32,
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "tanh",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.2,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9642,
+      "train_acc": 0.9599833333333333,
+      "train_time": 26.27874207496643,
+      "n_params": 30634,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          128
+        ],
+        "activations": [
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9638,
+      "train_acc": 0.9545666666666667,
+      "train_time": 26.29435110092163,
+      "n_params": 30634,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          128
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9636,
+      "train_acc": 0.95625,
+      "train_time": 26.923535108566284,
+      "n_params": 54762,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          32,
+          128,
+          128,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2,
+          0.0,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9636,
+      "train_acc": 0.9532833333333334,
+      "train_time": 26.58314800262451,
+      "n_params": 30634,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9634,
+      "train_acc": 0.9541333333333334,
+      "train_time": 26.75450611114502,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9632,
+      "train_acc": 0.9496333333333333,
+      "train_time": 23.60331106185913,
+      "n_params": 32042,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          32,
+          64,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9628,
+      "train_acc": 0.9584333333333334,
+      "train_time": 24.652167797088623,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9613,
+      "train_acc": 0.9649166666666666,
+      "train_time": 26.168806076049805,
+      "n_params": 27882,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9602,
+      "train_acc": 0.9748333333333333,
+      "train_time": 25.39602780342102,
+      "n_params": 26506,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          32
+        ],
+        "activations": [
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9599,
+      "train_acc": 0.9717666666666667,
+      "train_time": 23.566354990005493,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9599,
+      "train_acc": 0.9392,
+      "train_time": 30.66716694831848,
+      "n_params": 26506,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          32
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9598,
+      "train_acc": 0.9676833333333333,
+      "train_time": 31.05504822731018,
+      "n_params": 78058,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          32,
+          64,
+          256,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "relu",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.0,
+          0.1,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9597,
+      "train_acc": 0.9514833333333333,
+      "train_time": 28.64144730567932,
+      "n_params": 85738,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          256,
+          64,
+          32
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9581,
+      "train_acc": 0.9567333333333333,
+      "train_time": 29.7087619304657,
+      "n_params": 56842,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          32,
+          64,
+          32
+        ],
+        "activations": [
+          "sigmoid",
+          "tanh",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9567,
+      "train_acc": 0.9444833333333333,
+      "train_time": 5.989829778671265,
+      "n_params": 55050,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          64,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.954,
+      "train_acc": 0.9415333333333333,
+      "train_time": 26.48073697090149,
+      "n_params": 30634,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          128
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.952,
+      "train_acc": 0.9325,
+      "train_time": 29.778141260147095,
+      "n_params": 42122,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          32,
+          256,
+          32
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9519,
+      "train_acc": 0.9471666666666667,
+      "train_time": 24.12126898765564,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9506,
+      "train_acc": 0.9322833333333334,
+      "train_time": 5.789579153060913,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.9506,
+      "train_acc": 0.9322833333333334,
+      "train_time": 5.789579153060913,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.9506,
+      "train_acc": 0.9322833333333334,
+      "train_time": 5.789579153060913,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.9503,
+      "train_acc": 0.9202166666666667,
+      "train_time": 37.09851312637329,
+      "n_params": 33802,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          32,
+          128,
+          32
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9418,
+      "train_acc": 0.915,
+      "train_time": 26.25199794769287,
+      "n_params": 39306,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          32,
+          32,
+          128,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.3,
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9272,
+      "train_acc": 0.905,
+      "train_time": 5.979737758636475,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.9272,
+      "train_acc": 0.905,
+      "train_time": 5.979737758636475,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.9245,
+      "train_acc": 0.8795166666666666,
+      "train_time": 6.107654809951782,
+      "n_params": 27882,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3,
+          0.1
+        ]
+      },
+      "best_epoch": 2
+    },
+    {
+      "val_acc": 0.4916,
+      "train_acc": 0.47382,
+      "train_time": 33.19773602485657,
+      "n_params": 197322,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.4352,
+      "train_acc": 0.43716,
+      "train_time": 32.790838956832886,
+      "n_params": 394634,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.4095,
+      "train_acc": 0.40216,
+      "train_time": 31.71583104133606,
+      "n_params": 98666,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.2
+        ]
+      },
+      "best_epoch": 6
+    }
+  ],
+  "best_architecture": {
+    "val_acc": 0.9816,
+    "train_acc": 0.9828166666666667,
+    "train_time": 31.006174087524414,
+    "n_params": 269322,
+    "config": {
+      "n_layers": 2,
+      "hidden_sizes": [
+        256,
+        256
+      ],
+      "activations": [
+        "sigmoid",
+        "relu"
+      ],
+      "dropouts": [
+        0.3,
+        0.3
+      ]
+    },
+    "best_epoch": 7
+  }
+}
