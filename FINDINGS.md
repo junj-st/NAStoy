@@ -1,5 +1,3 @@
-# NAS Toy - Research Findings
-
 ## Problem Statement
 
 Neural Architecture Search (NAS) aims to automate the design of neural network architectures. This project explores three search strategies on a simplified search space to understand:

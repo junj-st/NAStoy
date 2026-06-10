@@ -107,10 +107,55 @@ def plot_rl_metrics(results_file: str, output_file: Optional[str] = None):
         results_file: Path to results JSON file
         output_file: Path to save plot
     """
-    # TODO: Implement RL metrics plot
-    # - Controller entropy over episodes
-    # - Moving average reward
-    raise NotImplementedError
+    # Load results
+    with open(results_file, 'r') as f:
+        data = json.load(f)
+
+    history = data['history']
+
+    # Extract episode stats
+    episodes = [h['episode'] for h in history]
+    mean_rewards = [h['mean_reward'] for h in history]
+    mean_accs = [h['mean_acc'] for h in history]
+    entropies = [h['entropy'] for h in history]
+    baselines = [h['baseline'] for h in history]
+
+    # Create figure with three subplots
+    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(10, 10))
+
+    # Plot 1: Rewards over episodes
+    ax1.plot(episodes, mean_rewards, 'b-', linewidth=2, label='Mean Reward')
+    ax1.plot(episodes, baselines, 'r--', linewidth=2, label='Baseline')
+    ax1.set_xlabel('Episode', fontsize=12)
+    ax1.set_ylabel('Reward', fontsize=12)
+    ax1.set_title('RL Controller - Reward Progress', fontsize=14)
+    ax1.legend()
+    ax1.grid(True, alpha=0.3)
+
+    # Plot 2: Accuracy over episodes
+    ax2.plot(episodes, mean_accs, 'g-', linewidth=2)
+    ax2.set_xlabel('Episode', fontsize=12)
+    ax2.set_ylabel('Mean Validation Accuracy', fontsize=12)
+    ax2.set_title('Accuracy Progress', fontsize=14)
+    ax2.grid(True, alpha=0.3)
+
+    # Plot 3: Entropy over episodes
+    ax3.plot(episodes, entropies, 'purple', linewidth=2)
+    ax3.set_xlabel('Episode', fontsize=12)
+    ax3.set_ylabel('Controller Entropy', fontsize=12)
+    ax3.set_title('Exploration (Entropy) Over Episodes', fontsize=14)
+    ax3.grid(True, alpha=0.3)
+
+    plt.tight_layout()
+
+    # Save or show
+    if output_file:
+        plt.savefig(output_file, dpi=150, bbox_inches='tight')
+        print(f"Saved RL metrics plot to {output_file}")
+    else:
+        plt.show()
+
+    plt.close()
 
 
 def plot_proxy_correlation(architectures: List[Dict], proxy_name: str, output_file: Optional[str] = None):

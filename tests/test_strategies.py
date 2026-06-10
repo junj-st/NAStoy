@@ -120,5 +120,24 @@ def test_population_diversity():
 
 def test_rl_controller_sampling():
     """Test RL controller can sample architectures."""
-    # TODO: Implement when RL controller is ready
-    pass
+    from nas.strategies.rl_controller import LSTMController
+    import torch
+
+    # Create controller
+    controller = LSTMController(hidden_size=32)
+
+    # Sample architectures
+    tokens, log_probs, entropy = controller.sample(n_samples=3)
+
+    # Check shapes
+    assert tokens.shape == (3, 13), f"Expected shape (3, 13), got {tokens.shape}"
+    assert log_probs.shape == (3,), f"Expected shape (3,), got {log_probs.shape}"
+    assert entropy.shape == (3,), f"Expected shape (3,), got {entropy.shape}"
+
+    # Check tokens are in valid range
+    for i, vocab_size in enumerate(controller.vocab_sizes):
+        assert (tokens[:, i] < vocab_size).all(), \
+            f"Token position {i} has invalid values"
+
+    # Check entropy is positive
+    assert (entropy > 0).all(), "Entropy should be positive"
