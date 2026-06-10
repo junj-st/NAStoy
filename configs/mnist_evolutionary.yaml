@@ -1,0 +1,10 @@
+dataset: mnist
+strategy: evolutionary
+population_size: 20
+n_generations: 50
+tournament_size: 3
+mutation_rate: 0.3
+train_budget: 10
+cache_dir: results/cache
+results_file: results/mnist_evolutionary.json
+seed: 42

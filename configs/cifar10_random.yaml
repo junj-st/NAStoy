@@ -1,0 +1,7 @@
+dataset: cifar10
+strategy: random
+n_evaluations: 150
+train_budget: 20
+cache_dir: results/cache
+results_file: results/cifar10_random.json
+seed: 42

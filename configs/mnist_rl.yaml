@@ -1,0 +1,13 @@
+dataset: mnist
+strategy: rl
+n_episodes: 200
+batch_size: 10
+learning_rate: 0.001
+hidden_size: 64
+entropy_coeff: 0.01
+entropy_decay: 0.995
+reward_lambda: 0.001
+train_budget: 10
+cache_dir: results/cache
+results_file: results/mnist_rl.json
+seed: 42

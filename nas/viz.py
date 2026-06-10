@@ -1,0 +1,156 @@
+"""
+Visualization utilities for NAS results.
+"""
+
+import json
+import matplotlib.pyplot as plt
+import numpy as np
+from pathlib import Path
+from typing import List, Dict, Optional
+
+
+def plot_search_trajectory(results_file: str, output_file: Optional[str] = None):
+    """Plot search trajectory showing best accuracy over evaluations.
+
+    Args:
+        results_file: Path to results JSON file
+        output_file: Path to save plot (if None, display instead)
+    """
+    # Load results
+    with open(results_file, 'r') as f:
+        data = json.load(f)
+
+    results = data['results']
+
+    # Calculate best accuracy so far at each evaluation
+    best_acc_so_far = []
+    current_best = 0.0
+
+    for result in results:
+        val_acc = result['val_acc']
+        current_best = max(current_best, val_acc)
+        best_acc_so_far.append(current_best)
+
+    # Create plot
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, len(best_acc_so_far) + 1), best_acc_so_far, 'b-', linewidth=2)
+    plt.xlabel('Evaluation Number', fontsize=12)
+    plt.ylabel('Best Validation Accuracy', fontsize=12)
+    plt.title(f'Search Trajectory - {data.get("strategy", "Unknown")} on {data.get("dataset", "Unknown")}', fontsize=14)
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+
+    # Save or show
+    if output_file:
+        plt.savefig(output_file, dpi=150, bbox_inches='tight')
+        print(f"Saved trajectory plot to {output_file}")
+    else:
+        plt.show()
+
+    plt.close()
+
+
+def plot_population_diversity(results_file: str, output_file: Optional[str] = None):
+    """Plot population diversity over generations (for evolutionary search).
+
+    Args:
+        results_file: Path to results JSON file
+        output_file: Path to save plot
+    """
+    # Load results
+    with open(results_file, 'r') as f:
+        data = json.load(f)
+
+    history = data['history']
+
+    # Extract generation stats
+    generations = [h['generation'] for h in history]
+    diversities = [h['diversity'] for h in history]
+    best_accs = [h['best_acc'] for h in history]
+    mean_accs = [h['mean_acc'] for h in history]
+
+    # Create figure with two subplots
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8))
+
+    # Plot 1: Accuracy over generations
+    ax1.plot(generations, best_accs, 'b-', linewidth=2, label='Best')
+    ax1.plot(generations, mean_accs, 'g--', linewidth=2, label='Mean')
+    ax1.set_xlabel('Generation', fontsize=12)
+    ax1.set_ylabel('Validation Accuracy', fontsize=12)
+    ax1.set_title(f'Evolutionary Search - Accuracy Progress', fontsize=14)
+    ax1.legend()
+    ax1.grid(True, alpha=0.3)
+
+    # Plot 2: Diversity over generations
+    ax2.plot(generations, diversities, 'r-', linewidth=2)
+    ax2.set_xlabel('Generation', fontsize=12)
+    ax2.set_ylabel('Population Diversity (Hamming Distance)', fontsize=12)
+    ax2.set_title('Population Diversity Over Generations', fontsize=14)
+    ax2.grid(True, alpha=0.3)
+
+    plt.tight_layout()
+
+    # Save or show
+    if output_file:
+        plt.savefig(output_file, dpi=150, bbox_inches='tight')
+        print(f"Saved diversity plot to {output_file}")
+    else:
+        plt.show()
+
+    plt.close()
+
+
+def plot_rl_metrics(results_file: str, output_file: Optional[str] = None):
+    """Plot RL controller metrics (entropy, reward).
+
+    Args:
+        results_file: Path to results JSON file
+        output_file: Path to save plot
+    """
+    # TODO: Implement RL metrics plot
+    # - Controller entropy over episodes
+    # - Moving average reward
+    raise NotImplementedError
+
+
+def plot_proxy_correlation(architectures: List[Dict], proxy_name: str, output_file: Optional[str] = None):
+    """Plot correlation between proxy scores and actual accuracy.
+
+    Args:
+        architectures: List of evaluated architectures with scores
+        proxy_name: Name of proxy ('grad_norm' or 'synflow')
+        output_file: Path to save plot
+    """
+    # TODO: Implement proxy correlation scatter plot
+    # X-axis: proxy score
+    # Y-axis: actual validation accuracy
+    # Include Spearman correlation coefficient
+    raise NotImplementedError
+
+
+def plot_search_space_heatmap(architectures: List[Dict], output_file: Optional[str] = None):
+    """Plot heatmap of search space exploration.
+
+    Shows which regions of search space (n_layers × hidden_size) were explored.
+
+    Args:
+        architectures: List of evaluated architectures
+        output_file: Path to save plot
+    """
+    # TODO: Implement search space heatmap
+    # X-axis: primary hidden size
+    # Y-axis: number of layers
+    # Color: average accuracy in that region
+    raise NotImplementedError
+
+
+def plot_architecture_diagram(config: Dict, output_file: Optional[str] = None):
+    """Render architecture as a diagram.
+
+    Args:
+        config: Architecture configuration
+        output_file: Path to save diagram
+    """
+    # TODO: Implement architecture diagram
+    # Simple visualization of layer structure
+    raise NotImplementedError
