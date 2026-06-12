@@ -1,0 +1,4194 @@
+{
+  "strategy": "rl",
+  "dataset": "mnist",
+  "n_episodes": 200,
+  "batch_size": 10,
+  "train_budget": 10,
+  "results": [
+    {
+      "val_acc": 0.984,
+      "train_acc": 0.9876,
+      "train_time": 21.444055795669556,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.984,
+      "train_acc": 0.9876,
+      "train_time": 21.444055795669556,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.984,
+      "train_acc": 0.9876,
+      "train_time": 21.444055795669556,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.984,
+      "train_acc": 0.9876,
+      "train_time": 21.444055795669556,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9838,
+      "train_acc": 0.98705,
+      "train_time": 22.967652082443237,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9838,
+      "train_acc": 0.98705,
+      "train_time": 22.967652082443237,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9836,
+      "train_acc": 0.9849166666666667,
+      "train_time": 23.12751078605652,
+      "n_params": 302410,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          256,
+          64,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9835,
+      "train_acc": 0.98815,
+      "train_time": 23.462074041366577,
+      "n_params": 275306,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          32
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9834,
+      "train_acc": 0.9902166666666666,
+      "train_time": 21.60060405731201,
+      "n_params": 259274,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          128,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.0,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9833,
+      "train_acc": 0.9877833333333333,
+      "train_time": 40.50837182998657,
+      "n_params": 246922,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          64,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1,
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9832,
+      "train_acc": 0.9886166666666667,
+      "train_time": 35.33369493484497,
+      "n_params": 235146,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9832,
+      "train_acc": 0.9874666666666667,
+      "train_time": 21.39944577217102,
+      "n_params": 251658,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9831,
+      "train_acc": 0.9885166666666667,
+      "train_time": 21.46182870864868,
+      "n_params": 251658,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9829,
+      "train_acc": 0.9907,
+      "train_time": 23.875110864639282,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9829,
+      "train_acc": 0.9856166666666667,
+      "train_time": 33.16227698326111,
+      "n_params": 300938,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9829,
+      "train_acc": 0.9876666666666667,
+      "train_time": 21.081135034561157,
+      "n_params": 251658,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9829,
+      "train_acc": 0.9856166666666667,
+      "train_time": 33.16227698326111,
+      "n_params": 300938,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9829,
+      "train_acc": 0.9941666666666666,
+      "train_time": 21.30891513824463,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9926,
+      "train_time": 21.620840072631836,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.98685,
+      "train_time": 21.568984746932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.2
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9926,
+      "train_time": 21.620840072631836,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9901666666666666,
+      "train_time": 21.95666480064392,
+      "n_params": 251658,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.0,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9890333333333333,
+      "train_time": 173.80163717269897,
+      "n_params": 349642,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          256,
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2,
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.99145,
+      "train_time": 19.969275951385498,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 5
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9926,
+      "train_time": 21.620840072631836,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9889333333333333,
+      "train_time": 20.570422887802124,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.98685,
+      "train_time": 21.568984746932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.2
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.98685,
+      "train_time": 21.568984746932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.2
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.98565,
+      "train_time": 22.77541184425354,
+      "n_params": 285994,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          256,
+          32,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.0,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.9926,
+      "train_time": 21.620840072631836,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9828,
+      "train_acc": 0.98685,
+      "train_time": 21.568984746932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.2
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9860833333333333,
+      "train_time": 29.52336096763611,
+      "n_params": 269450,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9910333333333333,
+      "train_time": 20.527296781539917,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9886333333333334,
+      "train_time": 23.617805242538452,
+      "n_params": 308554,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          256,
+          128,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9929,
+      "train_time": 26.01895809173584,
+      "n_params": 302410,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          256,
+          64,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.0,
+          0.2,
+          0.0,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9870833333333333,
+      "train_time": 21.8785400390625,
+      "n_params": 251658,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9910333333333333,
+      "train_time": 20.527296781539917,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9931,
+      "train_time": 20.65399193763733,
+      "n_params": 235146,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9827,
+      "train_acc": 0.9910333333333333,
+      "train_time": 20.527296781539917,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9930333333333333,
+      "train_time": 24.638203144073486,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9856833333333334,
+      "train_time": 23.776015996932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9856833333333334,
+      "train_time": 23.776015996932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9856833333333334,
+      "train_time": 23.776015996932983,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.0
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9878333333333333,
+      "train_time": 22.499063968658447,
+      "n_params": 275306,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          32
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9930333333333333,
+      "train_time": 24.638203144073486,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9884666666666667,
+      "train_time": 21.02142095565796,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.98835,
+      "train_time": 21.744882106781006,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9887333333333334,
+      "train_time": 21.94084095954895,
+      "n_params": 300938,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9884666666666667,
+      "train_time": 21.02142095565796,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9826,
+      "train_acc": 0.9930333333333333,
+      "train_time": 24.638203144073486,
+      "n_params": 218058,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9844666666666667,
+      "train_time": 24.327664852142334,
+      "n_params": 335114,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9905166666666667,
+      "train_time": 21.407241344451904,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9903166666666666,
+      "train_time": 25.491085052490234,
+      "n_params": 269450,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          256
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9905166666666667,
+      "train_time": 21.407241344451904,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9905166666666667,
+      "train_time": 21.407241344451904,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9861,
+      "train_time": 21.64611005783081,
+      "n_params": 259274,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          128,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9905166666666667,
+      "train_time": 21.407241344451904,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9905166666666667,
+      "train_time": 21.407241344451904,
+      "n_params": 269322,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.9825,
+      "train_acc": 0.9857166666666667,
+      "train_time": 20.120067834854126,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    }
+  ],
+  "history": [
+    {
+      "episode": 1,
+      "mean_reward": 0.9605400370576952,
+      "best_reward": 0.9680406364211125,
+      "mean_acc": 0.97165,
+      "best_acc": 0.9798,
+      "entropy": 1.2914892435073853,
+      "loss": -0.012918053283609293,
+      "baseline": 0.9605400370576952
+    },
+    {
+      "episode": 2,
+      "mean_reward": 0.9581569320476223,
+      "best_reward": 0.967969529355814,
+      "mean_acc": 0.96939,
+      "best_acc": 0.9795,
+      "entropy": 1.2918039560317993,
+      "loss": -0.05159710045985779,
+      "baseline": 0.9604208818071915
+    },
+    {
+      "episode": 3,
+      "mean_reward": 0.9554136768062929,
+      "best_reward": 0.9697777739485738,
+      "mean_acc": 0.9668300000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.291111946105957,
+      "loss": -0.08982619495375539,
+      "baseline": 0.9601705215571467
+    },
+    {
+      "episode": 4,
+      "mean_reward": 0.9596295815902991,
+      "best_reward": 0.9672474541581128,
+      "mean_acc": 0.9709900000000001,
+      "best_acc": 0.9795,
+      "entropy": 1.290976881980896,
+      "loss": -0.021904425565903458,
+      "baseline": 0.9601434745588043
+    },
+    {
+      "episode": 5,
+      "mean_reward": 0.9566969051719558,
+      "best_reward": 0.9653973618099685,
+      "mean_acc": 0.9680500000000001,
+      "best_acc": 0.9772,
+      "entropy": 1.29159414768219,
+      "loss": -0.06724105335354363,
+      "baseline": 0.9599711460894619
+    },
+    {
+      "episode": 6,
+      "mean_reward": 0.9583100772480531,
+      "best_reward": 0.968069529355814,
+      "mean_acc": 0.96944,
+      "best_acc": 0.9796,
+      "entropy": 1.2906612157821655,
+      "loss": -0.03777908334058545,
+      "baseline": 0.9598880926473914
+    },
+    {
+      "episode": 7,
+      "mean_reward": 0.9537904864050318,
+      "best_reward": 0.9657074836385693,
+      "mean_acc": 0.96486,
+      "best_acc": 0.978,
+      "entropy": 1.2911436557769775,
+      "loss": -0.10874115713887829,
+      "baseline": 0.9595832123352734
+    },
+    {
+      "episode": 8,
+      "mean_reward": 0.957762200415759,
+      "best_reward": 0.9660764313068531,
+      "mean_acc": 0.96892,
+      "best_acc": 0.9783,
+      "entropy": 1.291513204574585,
+      "loss": -0.042210821271661154,
+      "baseline": 0.9594921617392977
+    },
+    {
+      "episode": 9,
+      "mean_reward": 0.9601909747996553,
+      "best_reward": 0.9684764313068531,
+      "mean_acc": 0.97188,
+      "best_acc": 0.9807,
+      "entropy": 1.2914106845855713,
+      "loss": -0.0016222012193456148,
+      "baseline": 0.9595271023923155
+    },
+    {
+      "episode": 10,
+      "mean_reward": 0.958547537695171,
+      "best_reward": 0.9691963370312582,
+      "mean_acc": 0.96987,
+      "best_acc": 0.9817,
+      "entropy": 1.2913415431976318,
+      "loss": -0.029575002932044236,
+      "baseline": 0.9594781241574583
+    },
+    {
+      "episode": 11,
+      "mean_reward": 0.9576944918396828,
+      "best_reward": 0.9653973618099685,
+      "mean_acc": 0.96867,
+      "best_acc": 0.977,
+      "entropy": 1.290175199508667,
+      "loss": -0.04055889370713593,
+      "baseline": 0.9593889425415694
+    },
+    {
+      "episode": 12,
+      "mean_reward": 0.9637766370944798,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97545,
+      "best_acc": 0.9819,
+      "entropy": 1.2906091213226318,
+      "loss": 0.05787293035224027,
+      "baseline": 0.9596083272692149
+    },
+    {
+      "episode": 13,
+      "mean_reward": 0.9584901335907887,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.96982,
+      "best_acc": 0.9819,
+      "entropy": 1.2911908626556396,
+      "loss": -0.029733490805734803,
+      "baseline": 0.9595524175852935
+    },
+    {
+      "episode": 14,
+      "mean_reward": 0.9546067229703356,
+      "best_reward": 0.9643060172148218,
+      "mean_acc": 0.9657199999999999,
+      "best_acc": 0.9766,
+      "entropy": 1.2898775339126587,
+      "loss": -0.09161368343407905,
+      "baseline": 0.9593051328545456
+    },
+    {
+      "episode": 15,
+      "mean_reward": 0.956020963338348,
+      "best_reward": 0.9688777739485738,
+      "mean_acc": 0.96722,
+      "best_acc": 0.9816,
+      "entropy": 1.2896497249603271,
+      "loss": -0.06402882000547572,
+      "baseline": 0.9591409243787357
+    },
+    {
+      "episode": 16,
+      "mean_reward": 0.9597362576087495,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9713,
+      "best_acc": 0.9825,
+      "entropy": 1.2897738218307495,
+      "loss": -0.005219621641192473,
+      "baseline": 0.9591706910402363
+    },
+    {
+      "episode": 17,
+      "mean_reward": 0.9593554209519437,
+      "best_reward": 0.9685764313068531,
+      "mean_acc": 0.9708600000000001,
+      "best_acc": 0.9808,
+      "entropy": 1.2896709442138672,
+      "loss": -0.01080983388086353,
+      "baseline": 0.9591799275358217
+    },
+    {
+      "episode": 18,
+      "mean_reward": 0.9637526698899357,
+      "best_reward": 0.9688230123315001,
+      "mean_acc": 0.97536,
+      "best_acc": 0.9811,
+      "entropy": 1.289106011390686,
+      "loss": 0.06022615900364328,
+      "baseline": 0.9594085646535273
+    },
+    {
+      "episode": 19,
+      "mean_reward": 0.9605502211997266,
+      "best_reward": 0.9682320381231904,
+      "mean_acc": 0.9722199999999999,
+      "best_acc": 0.9806,
+      "entropy": 1.2883630990982056,
+      "loss": 0.005462153364212321,
+      "baseline": 0.9594656474808373
+    },
+    {
+      "episode": 20,
+      "mean_reward": 0.9636758952531427,
+      "best_reward": 0.9673747837924569,
+      "mean_acc": 0.9751900000000001,
+      "best_acc": 0.9798,
+      "entropy": 1.2887446880340576,
+      "loss": 0.05424992273772211,
+      "baseline": 0.9596761598694525
+    },
+    {
+      "episode": 21,
+      "mean_reward": 0.9631808559602094,
+      "best_reward": 0.9688074836385693,
+      "mean_acc": 0.9750400000000001,
+      "best_acc": 0.9811,
+      "entropy": 1.2884750366210938,
+      "loss": 0.040457268683068495,
+      "baseline": 0.9598513946739904
+    },
+    {
+      "episode": 22,
+      "mean_reward": 0.9635915365260181,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.9754400000000001,
+      "best_acc": 0.9828,
+      "entropy": 1.2874191999435425,
+      "loss": 0.045191631671500754,
+      "baseline": 0.9600384017665917
+    },
+    {
+      "episode": 23,
+      "mean_reward": 0.9566921455488846,
+      "best_reward": 0.9680359131957728,
+      "mean_acc": 0.9680399999999999,
+      "best_acc": 0.9803,
+      "entropy": 1.2870519161224365,
+      "loss": -0.06834130391857418,
+      "baseline": 0.9598710889557064
+    },
+    {
+      "episode": 24,
+      "mean_reward": 0.9623726470589155,
+      "best_reward": 0.9698567726657172,
+      "mean_acc": 0.9741200000000001,
+      "best_acc": 0.9819,
+      "entropy": 1.2857048511505127,
+      "loss": 0.025400701916518977,
+      "baseline": 0.9599961668608668
+    },
+    {
+      "episode": 25,
+      "mean_reward": 0.9538733779522541,
+      "best_reward": 0.9670388750214506,
+      "mean_acc": 0.9650500000000001,
+      "best_acc": 0.9787,
+      "entropy": 1.283271312713623,
+      "loss": -0.11335356219381554,
+      "baseline": 0.9596900274154361
+    },
+    {
+      "episode": 26,
+      "mean_reward": 0.9637420001653061,
+      "best_reward": 0.968069529355814,
+      "mean_acc": 0.9753399999999999,
+      "best_acc": 0.9796,
+      "entropy": 1.2824870347976685,
+      "loss": 0.05092740429527467,
+      "baseline": 0.9598926260529296
+    },
+    {
+      "episode": 27,
+      "mean_reward": 0.9627159436899463,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97442,
+      "best_acc": 0.9819,
+      "entropy": 1.2829872369766235,
+      "loss": 0.03048641729278033,
+      "baseline": 0.9600337919347804
+    },
+    {
+      "episode": 28,
+      "mean_reward": 0.9626706826604823,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97413,
+      "best_acc": 0.9819,
+      "entropy": 1.2800618410110474,
+      "loss": 0.026994244668674693,
+      "baseline": 0.9601656364710655
+    },
+    {
+      "episode": 29,
+      "mean_reward": 0.9584642179029179,
+      "best_reward": 0.9672963370312582,
+      "mean_acc": 0.97004,
+      "best_acc": 0.9798,
+      "entropy": 1.2799386978149414,
+      "loss": -0.04117587971090455,
+      "baseline": 0.9600805655426581
+    },
+    {
+      "episode": 30,
+      "mean_reward": 0.9561500064025781,
+      "best_reward": 0.9672191731171471,
+      "mean_acc": 0.9675199999999998,
+      "best_acc": 0.9794,
+      "entropy": 1.2759571075439453,
+      "loss": -0.07856353799698824,
+      "baseline": 0.9598840375856541
+    },
+    {
+      "episode": 31,
+      "mean_reward": 0.9608051969571495,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.97219,
+      "best_acc": 0.9827,
+      "entropy": 1.2751514911651611,
+      "loss": 0.002106898029671622,
+      "baseline": 0.9599300955542289
+    },
+    {
+      "episode": 32,
+      "mean_reward": 0.962790197750946,
+      "best_reward": 0.9690519678285512,
+      "mean_acc": 0.9747199999999999,
+      "best_acc": 0.9814,
+      "entropy": 1.2739633321762085,
+      "loss": 0.028146072078791398,
+      "baseline": 0.9600731006640648
+    },
+    {
+      "episode": 33,
+      "mean_reward": 0.9605261696376803,
+      "best_reward": 0.9686257976945989,
+      "mean_acc": 0.97197,
+      "best_acc": 0.981,
+      "entropy": 1.27033269405365,
+      "loss": -0.008554470495298658,
+      "baseline": 0.9600957541127456
+    },
+    {
+      "episode": 34,
+      "mean_reward": 0.9599508572457675,
+      "best_reward": 0.9684764313068531,
+      "mean_acc": 0.9714700000000001,
+      "best_acc": 0.9807,
+      "entropy": 1.268574595451355,
+      "loss": -0.01858781335257485,
+      "baseline": 0.9600885092693967
+    },
+    {
+      "episode": 35,
+      "mean_reward": 0.9639525443336565,
+      "best_reward": 0.9685191731171471,
+      "mean_acc": 0.97576,
+      "best_acc": 0.9802,
+      "entropy": 1.263832926750183,
+      "loss": 0.04836947089038794,
+      "baseline": 0.9602817110226097
+    },
+    {
+      "episode": 36,
+      "mean_reward": 0.9627563998037403,
+      "best_reward": 0.9678973618099685,
+      "mean_acc": 0.9742599999999999,
+      "best_acc": 0.9795,
+      "entropy": 1.2621660232543945,
+      "loss": 0.027975825578615207,
+      "baseline": 0.9604054454616662
+    },
+    {
+      "episode": 37,
+      "mean_reward": 0.963263208020669,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97507,
+      "best_acc": 0.9819,
+      "entropy": 1.2620947360992432,
+      "loss": 0.03117002762513682,
+      "baseline": 0.9605483335896162
+    },
+    {
+      "episode": 38,
+      "mean_reward": 0.9554674057275306,
+      "best_reward": 0.9659934638349472,
+      "mean_acc": 0.96645,
+      "best_acc": 0.9776,
+      "entropy": 1.256730318069458,
+      "loss": -0.09691745981593804,
+      "baseline": 0.9602942871965119
+    },
+    {
+      "episode": 39,
+      "mean_reward": 0.9626844822641342,
+      "best_reward": 0.9694074836385693,
+      "mean_acc": 0.97423,
+      "best_acc": 0.9817,
+      "entropy": 1.2562061548233032,
+      "loss": 0.02539975387951386,
+      "baseline": 0.9604137969498929
+    },
+    {
+      "episode": 40,
+      "mean_reward": 0.9642034156163678,
+      "best_reward": 0.9691074836385694,
+      "mean_acc": 0.9757200000000001,
+      "best_acc": 0.9814,
+      "entropy": 1.254396677017212,
+      "loss": 0.04528313220650761,
+      "baseline": 0.9606032778832166
+    },
+    {
+      "episode": 41,
+      "mean_reward": 0.9651861236374877,
+      "best_reward": 0.9684764313068531,
+      "mean_acc": 0.97686,
+      "best_acc": 0.9807,
+      "entropy": 1.251863718032837,
+      "loss": 0.058193162017643296,
+      "baseline": 0.9608324201709301
+    },
+    {
+      "episode": 42,
+      "mean_reward": 0.961170359095657,
+      "best_reward": 0.9684645163494955,
+      "mean_acc": 0.9726100000000001,
+      "best_acc": 0.9807,
+      "entropy": 1.2501637935638428,
+      "loss": -0.010027869055848345,
+      "baseline": 0.9608493171171664
+    },
+    {
+      "episode": 43,
+      "mean_reward": 0.9626715787291655,
+      "best_reward": 0.969767215411526,
+      "mean_acc": 0.97441,
+      "best_acc": 0.9821,
+      "entropy": 1.244242787361145,
+      "loss": 0.013124071867455494,
+      "baseline": 0.9609404301977663
+    },
+    {
+      "episode": 44,
+      "mean_reward": 0.9617531032499536,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97355,
+      "best_acc": 0.9819,
+      "entropy": 1.2433292865753174,
+      "loss": -0.009396041867357563,
+      "baseline": 0.9609810638503756
+    },
+    {
+      "episode": 45,
+      "mean_reward": 0.963403768782317,
+      "best_reward": 0.9684764313068531,
+      "mean_acc": 0.97531,
+      "best_acc": 0.9807,
+      "entropy": 1.2380433082580566,
+      "loss": 0.020785932738900708,
+      "baseline": 0.9611021990969726
+    },
+    {
+      "episode": 46,
+      "mean_reward": 0.9571155708657555,
+      "best_reward": 0.966188497033916,
+      "mean_acc": 0.96861,
+      "best_acc": 0.9784,
+      "entropy": 1.2344348430633545,
+      "loss": -0.07422115366375849,
+      "baseline": 0.9609028676854118
+    },
+    {
+      "episode": 47,
+      "mean_reward": 0.9620497488431141,
+      "best_reward": 0.9684191731171471,
+      "mean_acc": 0.97342,
+      "best_acc": 0.9801,
+      "entropy": 1.230596899986267,
+      "loss": 0.0025662534042472894,
+      "baseline": 0.9609602117432968
+    },
+    {
+      "episode": 48,
+      "mean_reward": 0.9613687020305974,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9728999999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.233074426651001,
+      "loss": -0.021903035001325143,
+      "baseline": 0.9609806362576618
+    },
+    {
+      "episode": 49,
+      "mean_reward": 0.9618067338294478,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9733700000000001,
+      "best_acc": 0.9819,
+      "entropy": 1.2231886386871338,
+      "loss": -0.00043983795934345905,
+      "baseline": 0.9610219411362511
+    },
+    {
+      "episode": 50,
+      "mean_reward": 0.9643501052394978,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97608,
+      "best_acc": 0.9819,
+      "entropy": 1.2197500467300415,
+      "loss": 0.04002467620426129,
+      "baseline": 0.9611883493414134
+    },
+    {
+      "episode": 51,
+      "mean_reward": 0.9631521026421364,
+      "best_reward": 0.9686292495192624,
+      "mean_acc": 0.97448,
+      "best_acc": 0.9812,
+      "entropy": 1.2160871028900146,
+      "loss": 0.01993054587289863,
+      "baseline": 0.9612865370064494
+    },
+    {
+      "episode": 52,
+      "mean_reward": 0.9628780403617953,
+      "best_reward": 0.9660516376518175,
+      "mean_acc": 0.97431,
+      "best_acc": 0.9781,
+      "entropy": 1.2122066020965576,
+      "loss": 0.01224682147313053,
+      "baseline": 0.9613661121742167
+    },
+    {
+      "episode": 53,
+      "mean_reward": 0.9655669926333956,
+      "best_reward": 0.9697701276842589,
+      "mean_acc": 0.9775799999999999,
+      "best_acc": 0.9818,
+      "entropy": 1.207786202430725,
+      "loss": 0.052384435814295104,
+      "baseline": 0.9615761561971756
+    },
+    {
+      "episode": 54,
+      "mean_reward": 0.9634491737212688,
+      "best_reward": 0.9703074836385693,
+      "mean_acc": 0.97514,
+      "best_acc": 0.9826,
+      "entropy": 1.2076396942138672,
+      "loss": 0.012549917334653476,
+      "baseline": 0.9616698070733802
+    },
+    {
+      "episode": 55,
+      "mean_reward": 0.9665719820484313,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9785599999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.2039225101470947,
+      "loss": 0.061821662302081054,
+      "baseline": 0.9619149158221327
+    },
+    {
+      "episode": 56,
+      "mean_reward": 0.9637848264620559,
+      "best_reward": 0.9696186555891634,
+      "mean_acc": 0.97549,
+      "best_acc": 0.982,
+      "entropy": 1.1993610858917236,
+      "loss": 0.013887123257148564,
+      "baseline": 0.9620084113541288
+    },
+    {
+      "episode": 57,
+      "mean_reward": 0.9626671809213591,
+      "best_reward": 0.9681958618766384,
+      "mean_acc": 0.9741800000000002,
+      "best_acc": 0.9807,
+      "entropy": 1.194725751876831,
+      "loss": -0.005838102036045937,
+      "baseline": 0.9620413498324903
+    },
+    {
+      "episode": 58,
+      "mean_reward": 0.9665574313132401,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.97828,
+      "best_acc": 0.9825,
+      "entropy": 1.1929762363433838,
+      "loss": 0.053931454590869995,
+      "baseline": 0.9622671539065277
+    },
+    {
+      "episode": 59,
+      "mean_reward": 0.9658832583809687,
+      "best_reward": 0.9700186555891634,
+      "mean_acc": 0.97789,
+      "best_acc": 0.9824,
+      "entropy": 1.1891875267028809,
+      "loss": 0.03869269748862596,
+      "baseline": 0.9624479591302497
+    },
+    {
+      "episode": 60,
+      "mean_reward": 0.9673213443873155,
+      "best_reward": 0.969464173698116,
+      "mean_acc": 0.9792099999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1867101192474365,
+      "loss": 0.061676372308649155,
+      "baseline": 0.962691628393103
+    },
+    {
+      "episode": 61,
+      "mean_reward": 0.9660486100254613,
+      "best_reward": 0.9686191731171471,
+      "mean_acc": 0.97791,
+      "best_acc": 0.9803,
+      "entropy": 1.1794569492340088,
+      "loss": 0.04105517798718168,
+      "baseline": 0.9628594774747208
+    },
+    {
+      "episode": 62,
+      "mean_reward": 0.9650185601087887,
+      "best_reward": 0.9693963370312582,
+      "mean_acc": 0.9769399999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1837869882583618,
+      "loss": 0.023880349682549165,
+      "baseline": 0.9629674316064241
+    },
+    {
+      "episode": 63,
+      "mean_reward": 0.9658446134963403,
+      "best_reward": 0.9687976994141184,
+      "mean_acc": 0.9775200000000002,
+      "best_acc": 0.9811,
+      "entropy": 1.1784292459487915,
+      "loss": 0.0311639936989049,
+      "baseline": 0.9631112907009198
+    },
+    {
+      "episode": 64,
+      "mean_reward": 0.9647701517740973,
+      "best_reward": 0.9688437987914011,
+      "mean_acc": 0.9765400000000002,
+      "best_acc": 0.9814,
+      "entropy": 1.1822729110717773,
+      "loss": 0.011398318586742309,
+      "baseline": 0.9631942337545787
+    },
+    {
+      "episode": 65,
+      "mean_reward": 0.9615350376427125,
+      "best_reward": 0.9688320381231903,
+      "mean_acc": 0.9731500000000001,
+      "best_acc": 0.9812,
+      "entropy": 1.175952672958374,
+      "loss": -0.041812084796400695,
+      "baseline": 0.9631112739489854
+    },
+    {
+      "episode": 66,
+      "mean_reward": 0.9679252327252368,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98009,
+      "best_acc": 0.9825,
+      "entropy": 1.1759212017059326,
+      "loss": 0.05988682046473938,
+      "baseline": 0.963351971887798
+    },
+    {
+      "episode": 67,
+      "mean_reward": 0.9666858079151737,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9787799999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.174677848815918,
+      "loss": 0.038059176344763426,
+      "baseline": 0.9635186636891667
+    },
+    {
+      "episode": 68,
+      "mean_reward": 0.9661430457539673,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9779300000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1735419034957886,
+      "loss": 0.026968749196390425,
+      "baseline": 0.9636498827924067
+    },
+    {
+      "episode": 69,
+      "mean_reward": 0.9645604580123924,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9765599999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1714314222335815,
+      "loss": 0.0005045962519788887,
+      "baseline": 0.963695411553406
+    },
+    {
+      "episode": 70,
+      "mean_reward": 0.9658487571348123,
+      "best_reward": 0.9698186555891634,
+      "mean_acc": 0.97765,
+      "best_acc": 0.9822,
+      "entropy": 1.1681795120239258,
+      "loss": 0.02069534855231664,
+      "baseline": 0.9638030788324763
+    },
+    {
+      "episode": 71,
+      "mean_reward": 0.9668681418161384,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.97872,
+      "best_acc": 0.9828,
+      "entropy": 1.167650580406189,
+      "loss": 0.03554625168756324,
+      "baseline": 0.9639563319816593
+    },
+    {
+      "episode": 72,
+      "mean_reward": 0.9661596879181633,
+      "best_reward": 0.9697963370312581,
+      "mean_acc": 0.97812,
+      "best_acc": 0.9823,
+      "entropy": 1.1712051630020142,
+      "loss": 0.0219519978911241,
+      "baseline": 0.9640664997784845
+    },
+    {
+      "episode": 73,
+      "mean_reward": 0.9668041990422696,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9789100000000002,
+      "best_acc": 0.9819,
+      "entropy": 1.1679751873016357,
+      "loss": 0.02591466037785376,
+      "baseline": 0.9642033847416738
+    },
+    {
+      "episode": 74,
+      "mean_reward": 0.9671642850532614,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9791700000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1699764728546143,
+      "loss": 0.03797890354870495,
+      "baseline": 0.9643514297572531
+    },
+    {
+      "episode": 75,
+      "mean_reward": 0.9657385992145453,
+      "best_reward": 0.9709743615147007,
+      "mean_acc": 0.97744,
+      "best_acc": 0.9835,
+      "entropy": 1.1646101474761963,
+      "loss": 0.010882544906241957,
+      "baseline": 0.9644207882301177
+    },
+    {
+      "episode": 76,
+      "mean_reward": 0.9674889641138289,
+      "best_reward": 0.9688963370312582,
+      "mean_acc": 0.97949,
+      "best_acc": 0.9814,
+      "entropy": 1.1650218963623047,
+      "loss": 0.033489563815333814,
+      "baseline": 0.9645741970243032
+    },
+    {
+      "episode": 77,
+      "mean_reward": 0.9665388134004423,
+      "best_reward": 0.9693320381231904,
+      "mean_acc": 0.97848,
+      "best_acc": 0.9817,
+      "entropy": 1.1656601428985596,
+      "loss": 0.01899854427093133,
+      "baseline": 0.9646724278431101
+    },
+    {
+      "episode": 78,
+      "mean_reward": 0.9665677209356162,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9787100000000001,
+      "best_acc": 0.9819,
+      "entropy": 1.169707179069519,
+      "loss": 0.01694044623805898,
+      "baseline": 0.9647671924977353
+    },
+    {
+      "episode": 79,
+      "mean_reward": 0.9652204574932035,
+      "best_reward": 0.9684764313068531,
+      "mean_acc": 0.97739,
+      "best_acc": 0.9807,
+      "entropy": 1.1662161350250244,
+      "loss": -0.006947696592754618,
+      "baseline": 0.9647898557475088
+    },
+    {
+      "episode": 80,
+      "mean_reward": 0.9669353988451757,
+      "best_reward": 0.9692963370312582,
+      "mean_acc": 0.9789299999999999,
+      "best_acc": 0.9818,
+      "entropy": 1.1647512912750244,
+      "loss": 0.02168549685107854,
+      "baseline": 0.9648971329023921
+    },
+    {
+      "episode": 81,
+      "mean_reward": 0.9662367652858299,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97829,
+      "best_acc": 0.9819,
+      "entropy": 1.164463996887207,
+      "loss": 0.008423042057651407,
+      "baseline": 0.9649641145215639
+    },
+    {
+      "episode": 82,
+      "mean_reward": 0.9661431768577465,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9780999999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.1655447483062744,
+      "loss": 0.006086131840858175,
+      "baseline": 0.9650230676383731
+    },
+    {
+      "episode": 83,
+      "mean_reward": 0.9665440351153933,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9785,
+      "best_acc": 0.9825,
+      "entropy": 1.1667343378067017,
+      "loss": 0.014604365781033614,
+      "baseline": 0.9650991160122241
+    },
+    {
+      "episode": 84,
+      "mean_reward": 0.9646717521557278,
+      "best_reward": 0.9677885858389925,
+      "mean_acc": 0.9764899999999999,
+      "best_acc": 0.9801,
+      "entropy": 1.1644787788391113,
+      "loss": -0.02099389628777245,
+      "baseline": 0.9650777478193993
+    },
+    {
+      "episode": 85,
+      "mean_reward": 0.9674726641643204,
+      "best_reward": 0.9700963370312582,
+      "mean_acc": 0.9798,
+      "best_acc": 0.9826,
+      "entropy": 1.1669871807098389,
+      "loss": 0.02538004607935436,
+      "baseline": 0.9651974936366452
+    },
+    {
+      "episode": 86,
+      "mean_reward": 0.9649666856030816,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.97682,
+      "best_acc": 0.9825,
+      "entropy": 1.1641006469726562,
+      "loss": -0.018337827197309347,
+      "baseline": 0.9651859532349669
+    },
+    {
+      "episode": 87,
+      "mean_reward": 0.9665011819794529,
+      "best_reward": 0.9688743615147007,
+      "mean_acc": 0.97862,
+      "best_acc": 0.9814,
+      "entropy": 1.162481665611267,
+      "loss": 0.009225640196413275,
+      "baseline": 0.9652517146721912
+    },
+    {
+      "episode": 88,
+      "mean_reward": 0.9669807192868174,
+      "best_reward": 0.9690777739485738,
+      "mean_acc": 0.9789999999999999,
+      "best_acc": 0.9818,
+      "entropy": 1.1641939878463745,
+      "loss": 0.015744530508009023,
+      "baseline": 0.9653381649029225
+    },
+    {
+      "episode": 89,
+      "mean_reward": 0.9641680182592556,
+      "best_reward": 0.9686777739485738,
+      "mean_acc": 0.97589,
+      "best_acc": 0.9814,
+      "entropy": 1.161072015762329,
+      "loss": -0.032765159658986166,
+      "baseline": 0.9652796575707391
+    },
+    {
+      "episode": 90,
+      "mean_reward": 0.9673300820177607,
+      "best_reward": 0.9699963370312582,
+      "mean_acc": 0.9794499999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.1618314981460571,
+      "loss": 0.02060629790965849,
+      "baseline": 0.9653821787930902
+    },
+    {
+      "episode": 91,
+      "mean_reward": 0.967554007174118,
+      "best_reward": 0.9693963370312582,
+      "mean_acc": 0.97948,
+      "best_acc": 0.9819,
+      "entropy": 1.1585731506347656,
+      "loss": 0.022949165313713715,
+      "baseline": 0.9654907702121416
+    },
+    {
+      "episode": 92,
+      "mean_reward": 0.9670159398957482,
+      "best_reward": 0.9704074836385693,
+      "mean_acc": 0.97915,
+      "best_acc": 0.9827,
+      "entropy": 1.162696123123169,
+      "loss": 0.011266699817732172,
+      "baseline": 0.9655670286963218
+    },
+    {
+      "episode": 93,
+      "mean_reward": 0.9651607269188591,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9770900000000001,
+      "best_acc": 0.9819,
+      "entropy": 1.1582149267196655,
+      "loss": -0.015944855689121136,
+      "baseline": 0.9655467136074486
+    },
+    {
+      "episode": 94,
+      "mean_reward": 0.9677392230924842,
+      "best_reward": 0.9702853404575522,
+      "mean_acc": 0.97979,
+      "best_acc": 0.9829,
+      "entropy": 1.1572074890136719,
+      "loss": 0.02390728928980565,
+      "baseline": 0.9656563390817003
+    },
+    {
+      "episode": 95,
+      "mean_reward": 0.9622040479017375,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9737899999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1531234979629517,
+      "loss": -0.06775017426712793,
+      "baseline": 0.9654837245227021
+    },
+    {
+      "episode": 96,
+      "mean_reward": 0.9672537388599183,
+      "best_reward": 0.9700603478524716,
+      "mean_acc": 0.97936,
+      "best_acc": 0.9827,
+      "entropy": 1.1557888984680176,
+      "loss": 0.017236552302396835,
+      "baseline": 0.965572225239563
+    },
+    {
+      "episode": 97,
+      "mean_reward": 0.9663254821009938,
+      "best_reward": 0.9685764313068531,
+      "mean_acc": 0.97841,
+      "best_acc": 0.9808,
+      "entropy": 1.1558971405029297,
+      "loss": 0.0005109888618581911,
+      "baseline": 0.9656098880826345
+    },
+    {
+      "episode": 98,
+      "mean_reward": 0.9658187700950401,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.97791,
+      "best_acc": 0.9828,
+      "entropy": 1.15421462059021,
+      "loss": -0.00828400520875346,
+      "baseline": 0.9656203321832547
+    },
+    {
+      "episode": 99,
+      "mean_reward": 0.9677564096149738,
+      "best_reward": 0.969843347950646,
+      "mean_acc": 0.9798,
+      "best_acc": 0.9824,
+      "entropy": 1.1522160768508911,
+      "loss": 0.02196988779669175,
+      "baseline": 0.9657271360548407
+    },
+    {
+      "episode": 100,
+      "mean_reward": 0.9645067504795797,
+      "best_reward": 0.9685764313068531,
+      "mean_acc": 0.97635,
+      "best_acc": 0.9811,
+      "entropy": 1.1519378423690796,
+      "loss": -0.03455690048831067,
+      "baseline": 0.9656661167760776
+    },
+    {
+      "episode": 101,
+      "mean_reward": 0.9685033322087634,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9805999999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.1519361734390259,
+      "loss": 0.032226024263300415,
+      "baseline": 0.9658079775477119
+    },
+    {
+      "episode": 102,
+      "mean_reward": 0.9675437513437398,
+      "best_reward": 0.9696292495192624,
+      "mean_acc": 0.97973,
+      "best_acc": 0.9822,
+      "entropy": 1.1503664255142212,
+      "loss": 0.015655616876168003,
+      "baseline": 0.9658947662375132
+    },
+    {
+      "episode": 103,
+      "mean_reward": 0.9663136475606334,
+      "best_reward": 0.9700963370312582,
+      "mean_acc": 0.9783099999999999,
+      "best_acc": 0.9827,
+      "entropy": 1.1479886770248413,
+      "loss": -0.005160979724927931,
+      "baseline": 0.9659157103036692
+    },
+    {
+      "episode": 104,
+      "mean_reward": 0.9670858816486451,
+      "best_reward": 0.9700963370312582,
+      "mean_acc": 0.97911,
+      "best_acc": 0.9826,
+      "entropy": 1.1458873748779297,
+      "loss": 0.00800360997796111,
+      "baseline": 0.9659742188709179
+    },
+    {
+      "episode": 105,
+      "mean_reward": 0.9680295360339397,
+      "best_reward": 0.9712963370312582,
+      "mean_acc": 0.9800699999999999,
+      "best_acc": 0.9838,
+      "entropy": 1.1450878381729126,
+      "loss": 0.020820571267678833,
+      "baseline": 0.9660769847290689
+    },
+    {
+      "episode": 106,
+      "mean_reward": 0.9673282389636899,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9793499999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1424152851104736,
+      "loss": 0.00993972934656016,
+      "baseline": 0.9661395474407999
+    },
+    {
+      "episode": 107,
+      "mean_reward": 0.9673803932973914,
+      "best_reward": 0.9708831722237355,
+      "mean_acc": 0.97943,
+      "best_acc": 0.9833,
+      "entropy": 1.1425230503082275,
+      "loss": 0.009320032992099513,
+      "baseline": 0.9662015897336295
+    },
+    {
+      "episode": 108,
+      "mean_reward": 0.963525399765716,
+      "best_reward": 0.968767215411526,
+      "mean_acc": 0.9753400000000001,
+      "best_acc": 0.9812,
+      "entropy": 1.1407501697540283,
+      "loss": -0.053089791854306165,
+      "baseline": 0.9660677802352338
+    },
+    {
+      "episode": 109,
+      "mean_reward": 0.9684138747162327,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98077,
+      "best_acc": 0.9826,
+      "entropy": 1.1438112258911133,
+      "loss": 0.024793645194427692,
+      "baseline": 0.9661850849592837
+    },
+    {
+      "episode": 110,
+      "mean_reward": 0.9669793422844741,
+      "best_reward": 0.970364173698116,
+      "mean_acc": 0.9788600000000001,
+      "best_acc": 0.9828,
+      "entropy": 1.1403154134750366,
+      "loss": 0.0020753354134814238,
+      "baseline": 0.9662247978255432
+    },
+    {
+      "episode": 111,
+      "mean_reward": 0.9673936256353134,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9795,
+      "best_acc": 0.9819,
+      "entropy": 1.1395337581634521,
+      "loss": 0.009316243167279442,
+      "baseline": 0.9662832392160317
+    },
+    {
+      "episode": 112,
+      "mean_reward": 0.967516744803496,
+      "best_reward": 0.9695001631814946,
+      "mean_acc": 0.9797300000000002,
+      "best_acc": 0.9819,
+      "entropy": 1.1425111293792725,
+      "loss": 0.010042062709942085,
+      "baseline": 0.9663449144954048
+    },
+    {
+      "episode": 113,
+      "mean_reward": 0.9683681441755294,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9807400000000002,
+      "best_acc": 0.9825,
+      "entropy": 1.1412769556045532,
+      "loss": 0.02105703181412676,
+      "baseline": 0.966446075979411
+    },
+    {
+      "episode": 114,
+      "mean_reward": 0.9670705184155597,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.97913,
+      "best_acc": 0.9825,
+      "entropy": 1.1413511037826538,
+      "loss": 0.0018887120773141784,
+      "baseline": 0.9664772981012184
+    },
+    {
+      "episode": 115,
+      "mean_reward": 0.9680510305430573,
+      "best_reward": 0.9699963370312582,
+      "mean_acc": 0.98018,
+      "best_acc": 0.9825,
+      "entropy": 1.140378713607788,
+      "loss": 0.014661134348298799,
+      "baseline": 0.9665559847233104
+    },
+    {
+      "episode": 116,
+      "mean_reward": 0.9665434089418283,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9785799999999998,
+      "best_acc": 0.9825,
+      "entropy": 1.1413103342056274,
+      "loss": -0.022901263611406465,
+      "baseline": 0.9665553559342362
+    },
+    {
+      "episode": 117,
+      "mean_reward": 0.9672040847015777,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9791399999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1384950876235962,
+      "loss": -0.0003330680967310942,
+      "baseline": 0.9665877923726033
+    },
+    {
+      "episode": 118,
+      "mean_reward": 0.9682894683520434,
+      "best_reward": 0.9693958618766384,
+      "mean_acc": 0.9804999999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.1381250619888306,
+      "loss": 0.0157961878739347,
+      "baseline": 0.9666728761715753
+    },
+    {
+      "episode": 119,
+      "mean_reward": 0.9683841350022249,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9806100000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1400243043899536,
+      "loss": 0.01788693753066804,
+      "baseline": 0.9667584391131077
+    },
+    {
+      "episode": 120,
+      "mean_reward": 0.968073209143606,
+      "best_reward": 0.9708320381231903,
+      "mean_acc": 0.98037,
+      "best_acc": 0.9832,
+      "entropy": 1.1384801864624023,
+      "loss": 0.009846278947964904,
+      "baseline": 0.9668241776146325
+    },
+    {
+      "episode": 121,
+      "mean_reward": 0.9675735821440096,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9799,
+      "best_acc": 0.9822,
+      "entropy": 1.1381731033325195,
+      "loss": 0.0037127060201428003,
+      "baseline": 0.9668616478411013
+    },
+    {
+      "episode": 122,
+      "mean_reward": 0.9681688088987304,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9803,
+      "best_acc": 0.9825,
+      "entropy": 1.1348994970321655,
+      "loss": 0.01014171918504081,
+      "baseline": 0.9669270058939827
+    },
+    {
+      "episode": 123,
+      "mean_reward": 0.9684091180042304,
+      "best_reward": 0.9700353349471527,
+      "mean_acc": 0.9806999999999999,
+      "best_acc": 0.9828,
+      "entropy": 1.1338049173355103,
+      "loss": 0.013631000260297198,
+      "baseline": 0.9670011114994951
+    },
+    {
+      "episode": 124,
+      "mean_reward": 0.9676885519240986,
+      "best_reward": 0.9692603478524716,
+      "mean_acc": 0.9799,
+      "best_acc": 0.9819,
+      "entropy": 1.1322072744369507,
+      "loss": 8.371022052750324e-06,
+      "baseline": 0.9670354835207252
+    },
+    {
+      "episode": 125,
+      "mean_reward": 0.967605885470699,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9799200000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1319152116775513,
+      "loss": 0.0019799418270208986,
+      "baseline": 0.9670640036182239
+    },
+    {
+      "episode": 126,
+      "mean_reward": 0.9678061756620506,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.97981,
+      "best_acc": 0.9819,
+      "entropy": 1.1292684078216553,
+      "loss": 0.003094839677717223,
+      "baseline": 0.9671011122204152
+    },
+    {
+      "episode": 127,
+      "mean_reward": 0.9687067315022109,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9808999999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.1296824216842651,
+      "loss": 0.015049303850319565,
+      "baseline": 0.9671813931845049
+    },
+    {
+      "episode": 128,
+      "mean_reward": 0.9684494922045458,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9805999999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.127961277961731,
+      "loss": 0.012164119885602346,
+      "baseline": 0.9672447981355069
+    },
+    {
+      "episode": 129,
+      "mean_reward": 0.9646058005673055,
+      "best_reward": 0.9696773920619298,
+      "mean_acc": 0.97652,
+      "best_acc": 0.9824,
+      "entropy": 1.1237794160842896,
+      "loss": -0.06347485701346188,
+      "baseline": 0.9671128482570969
+    },
+    {
+      "episode": 130,
+      "mean_reward": 0.9681222591225834,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9806199999999998,
+      "best_acc": 0.9819,
+      "entropy": 1.125413179397583,
+      "loss": 0.007327466145239117,
+      "baseline": 0.9671633188003712
+    },
+    {
+      "episode": 131,
+      "mean_reward": 0.9672541646473537,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9794,
+      "best_acc": 0.9825,
+      "entropy": 1.123150110244751,
+      "loss": -0.0053766319265490786,
+      "baseline": 0.9671678610927202
+    },
+    {
+      "episode": 132,
+      "mean_reward": 0.9673756837477878,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.97958,
+      "best_acc": 0.9828,
+      "entropy": 1.1215146780014038,
+      "loss": -0.0068651937867012375,
+      "baseline": 0.9671782522254736
+    },
+    {
+      "episode": 133,
+      "mean_reward": 0.9662211194381871,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.9782399999999999,
+      "best_acc": 0.9828,
+      "entropy": 1.1195951700210571,
+      "loss": -0.024838836444341424,
+      "baseline": 0.9671303955861092
+    },
+    {
+      "episode": 134,
+      "mean_reward": 0.9683385199767887,
+      "best_reward": 0.970264173698116,
+      "mean_acc": 0.9807,
+      "best_acc": 0.9827,
+      "entropy": 1.1171576976776123,
+      "loss": 0.01002942596821143,
+      "baseline": 0.9671908018056431
+    },
+    {
+      "episode": 135,
+      "mean_reward": 0.9676831733552209,
+      "best_reward": 0.9688001631814945,
+      "mean_acc": 0.9800599999999999,
+      "best_acc": 0.9812,
+      "entropy": 1.1155818700790405,
+      "loss": 0.0008677399134276401,
+      "baseline": 0.9672154203831219
+    },
+    {
+      "episode": 136,
+      "mean_reward": 0.9668504733114472,
+      "best_reward": 0.9690320381231904,
+      "mean_acc": 0.9789399999999999,
+      "best_acc": 0.9814,
+      "entropy": 1.1131782531738281,
+      "loss": -0.012087178715235857,
+      "baseline": 0.9671971730295381
+    },
+    {
+      "episode": 137,
+      "mean_reward": 0.9687230502376721,
+      "best_reward": 0.9703074836385693,
+      "mean_acc": 0.9811,
+      "best_acc": 0.9826,
+      "entropy": 1.1112703084945679,
+      "loss": 0.01594798114895026,
+      "baseline": 0.9672734668899448
+    },
+    {
+      "episode": 138,
+      "mean_reward": 0.9683837697534567,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9804999999999999,
+      "best_acc": 0.9819,
+      "entropy": 1.112119436264038,
+      "loss": 0.009446519357532716,
+      "baseline": 0.9673289820331202
+    },
+    {
+      "episode": 139,
+      "mean_reward": 0.9685259946677505,
+      "best_reward": 0.9698074836385693,
+      "mean_acc": 0.9808600000000001,
+      "best_acc": 0.9824,
+      "entropy": 1.111061692237854,
+      "loss": 0.009827556662707187,
+      "baseline": 0.9673888326648517
+    },
+    {
+      "episode": 140,
+      "mean_reward": 0.967981865853902,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9802700000000002,
+      "best_acc": 0.9819,
+      "entropy": 1.1088390350341797,
+      "loss": 0.0022835638707294883,
+      "baseline": 0.9674184843243041
+    },
+    {
+      "episode": 141,
+      "mean_reward": 0.9678632460497895,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9800700000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1082947254180908,
+      "loss": -0.0011737694146006722,
+      "baseline": 0.9674407224105783
+    },
+    {
+      "episode": 142,
+      "mean_reward": 0.9684806269589407,
+      "best_reward": 0.9696001631814946,
+      "mean_acc": 0.98087,
+      "best_acc": 0.982,
+      "entropy": 1.1064869165420532,
+      "loss": 0.008215942897554365,
+      "baseline": 0.9674927176379964
+    },
+    {
+      "episode": 143,
+      "mean_reward": 0.968148106877522,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9804300000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.10764479637146,
+      "loss": 0.004411645365640213,
+      "baseline": 0.9675254870999727
+    },
+    {
+      "episode": 144,
+      "mean_reward": 0.9680636305287305,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98019,
+      "best_acc": 0.9825,
+      "entropy": 1.1073684692382812,
+      "loss": 0.0009534720765258017,
+      "baseline": 0.9675523942714105
+    },
+    {
+      "episode": 145,
+      "mean_reward": 0.9684555449699118,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98074,
+      "best_acc": 0.9825,
+      "entropy": 1.1073555946350098,
+      "loss": 0.006668069278786697,
+      "baseline": 0.9675975518063356
+    },
+    {
+      "episode": 146,
+      "mean_reward": 0.9683366292257052,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.98056,
+      "best_acc": 0.9819,
+      "entropy": 1.1085405349731445,
+      "loss": 0.0036416067286838168,
+      "baseline": 0.967634505677304
+    },
+    {
+      "episode": 147,
+      "mean_reward": 0.9678003049756778,
+      "best_reward": 0.9704074836385693,
+      "mean_acc": 0.97966,
+      "best_acc": 0.9827,
+      "entropy": 1.1042561531066895,
+      "loss": -0.0037065808298504177,
+      "baseline": 0.9676427956422227
+    },
+    {
+      "episode": 148,
+      "mean_reward": 0.9685277425482541,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9807499999999999,
+      "best_acc": 0.982,
+      "entropy": 1.1089601516723633,
+      "loss": 0.006475182234683432,
+      "baseline": 0.9676870429875242
+    },
+    {
+      "episode": 149,
+      "mean_reward": 0.9689726804742916,
+      "best_reward": 0.9699963370312582,
+      "mean_acc": 0.9813699999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.1088159084320068,
+      "loss": 0.011811039179761219,
+      "baseline": 0.9677513248618625
+    },
+    {
+      "episode": 150,
+      "mean_reward": 0.9675018079686669,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9796000000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1088863611221313,
+      "loss": -0.01023235341553434,
+      "baseline": 0.9677388490172028
+    },
+    {
+      "episode": 151,
+      "mean_reward": 0.9674958254482586,
+      "best_reward": 0.9688963370312582,
+      "mean_acc": 0.97977,
+      "best_acc": 0.9814,
+      "entropy": 1.1100432872772217,
+      "loss": -0.008855646396815032,
+      "baseline": 0.9677266978387555
+    },
+    {
+      "episode": 152,
+      "mean_reward": 0.9681346185049048,
+      "best_reward": 0.9705074836385693,
+      "mean_acc": 0.98059,
+      "best_acc": 0.9828,
+      "entropy": 1.1087911128997803,
+      "loss": 0.0005783530651820813,
+      "baseline": 0.967747093872063
+    },
+    {
+      "episode": 153,
+      "mean_reward": 0.967130677262821,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9794600000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.108801245689392,
+      "loss": -0.014639532724732587,
+      "baseline": 0.9677162730416009
+    },
+    {
+      "episode": 154,
+      "mean_reward": 0.9676959212390415,
+      "best_reward": 0.9695773920619297,
+      "mean_acc": 0.9799800000000001,
+      "best_acc": 0.9823,
+      "entropy": 1.1092407703399658,
+      "loss": -0.005951745469489697,
+      "baseline": 0.967715255451473
+    },
+    {
+      "episode": 155,
+      "mean_reward": 0.9680114393864307,
+      "best_reward": 0.9703320381231904,
+      "mean_acc": 0.98023,
+      "best_acc": 0.9827,
+      "entropy": 1.106813669204712,
+      "loss": -0.002202110829492076,
+      "baseline": 0.9677300646482209
+    },
+    {
+      "episode": 156,
+      "mean_reward": 0.9673532613840361,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.97965,
+      "best_acc": 0.9828,
+      "entropy": 1.1056104898452759,
+      "loss": -0.015496664539931518,
+      "baseline": 0.9677112244850116
+    },
+    {
+      "episode": 157,
+      "mean_reward": 0.9680875389375487,
+      "best_reward": 0.968964173698116,
+      "mean_acc": 0.9802299999999999,
+      "best_acc": 0.9815,
+      "entropy": 1.108286738395691,
+      "loss": -0.0002717293194085483,
+      "baseline": 0.9677300402076383
+    },
+    {
+      "episode": 158,
+      "mean_reward": 0.9676751824600881,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9799499999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.107213020324707,
+      "loss": -0.006036123915860987,
+      "baseline": 0.9677272973202607
+    },
+    {
+      "episode": 159,
+      "mean_reward": 0.9681009827673183,
+      "best_reward": 0.9697963370312581,
+      "mean_acc": 0.9802799999999999,
+      "best_acc": 0.9823,
+      "entropy": 1.1103986501693726,
+      "loss": -0.00042025736184727637,
+      "baseline": 0.9677459815926136
+    },
+    {
+      "episode": 160,
+      "mean_reward": 0.9684574652995849,
+      "best_reward": 0.970664173698116,
+      "mean_acc": 0.98058,
+      "best_acc": 0.9831,
+      "entropy": 1.1081962585449219,
+      "loss": 0.002538514027552905,
+      "baseline": 0.9677815557779622
+    },
+    {
+      "episode": 161,
+      "mean_reward": 0.9678546971560728,
+      "best_reward": 0.9699963370312582,
+      "mean_acc": 0.98017,
+      "best_acc": 0.9825,
+      "entropy": 1.1083552837371826,
+      "loss": -0.0068342810367782465,
+      "baseline": 0.9677852128468677
+    },
+    {
+      "episode": 162,
+      "mean_reward": 0.9679827746092144,
+      "best_reward": 0.9700963370312582,
+      "mean_acc": 0.9804700000000001,
+      "best_acc": 0.9826,
+      "entropy": 1.106791615486145,
+      "loss": -0.003819353956848362,
+      "baseline": 0.9677950909349851
+    },
+    {
+      "episode": 163,
+      "mean_reward": 0.9684533261254465,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9805999999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.107731580734253,
+      "loss": 0.0034361384875413875,
+      "baseline": 0.9678280026945081
+    },
+    {
+      "episode": 164,
+      "mean_reward": 0.9688373922546833,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9811399999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.1065537929534912,
+      "loss": 0.007990141087702957,
+      "baseline": 0.9678784721725169
+    },
+    {
+      "episode": 165,
+      "mean_reward": 0.9672130307328854,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9793200000000001,
+      "best_acc": 0.9825,
+      "entropy": 1.1080610752105713,
+      "loss": -0.02163613290012802,
+      "baseline": 0.9678452001005352
+    },
+    {
+      "episode": 166,
+      "mean_reward": 0.968093753307899,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98027,
+      "best_acc": 0.9825,
+      "entropy": 1.105715036392212,
+      "loss": -0.0028153290782263773,
+      "baseline": 0.9678576277609033
+    },
+    {
+      "episode": 167,
+      "mean_reward": 0.9683387665292379,
+      "best_reward": 0.9697320381231903,
+      "mean_acc": 0.9807,
+      "best_acc": 0.9821,
+      "entropy": 1.105412244796753,
+      "loss": 0.0011648160721725457,
+      "baseline": 0.96788168469932
+    },
+    {
+      "episode": 168,
+      "mean_reward": 0.9686737733094605,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.9808300000000001,
+      "best_acc": 0.9828,
+      "entropy": 1.1074005365371704,
+      "loss": 0.005730338286396432,
+      "baseline": 0.967921289129827
+    },
+    {
+      "episode": 169,
+      "mean_reward": 0.9688045240087991,
+      "best_reward": 0.9709804610084762,
+      "mean_acc": 0.9812100000000001,
+      "best_acc": 0.9836,
+      "entropy": 1.103891134262085,
+      "loss": 0.005848115894763202,
+      "baseline": 0.9679654508737756
+    },
+    {
+      "episode": 170,
+      "mean_reward": 0.9689840436836089,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98133,
+      "best_acc": 0.9825,
+      "entropy": 1.1042934656143188,
+      "loss": 0.009503963362039111,
+      "baseline": 0.9680163805142673
+    },
+    {
+      "episode": 171,
+      "mean_reward": 0.9686479543203721,
+      "best_reward": 0.9712963370312582,
+      "mean_acc": 0.98084,
+      "best_acc": 0.9838,
+      "entropy": 1.105172872543335,
+      "loss": 0.0007420960108056986,
+      "baseline": 0.9680479592045725
+    },
+    {
+      "episode": 172,
+      "mean_reward": 0.9682033499373718,
+      "best_reward": 0.9699853404575522,
+      "mean_acc": 0.9805900000000001,
+      "best_acc": 0.9826,
+      "entropy": 1.1042386293411255,
+      "loss": -0.003180026073589164,
+      "baseline": 0.9680557287412124
+    },
+    {
+      "episode": 173,
+      "mean_reward": 0.9683233828023203,
+      "best_reward": 0.9714963370312582,
+      "mean_acc": 0.98064,
+      "best_acc": 0.984,
+      "entropy": 1.1015722751617432,
+      "loss": -0.0031228501071041232,
+      "baseline": 0.9680691114442678
+    },
+    {
+      "episode": 174,
+      "mean_reward": 0.968765507088708,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9811099999999999,
+      "best_acc": 0.9826,
+      "entropy": 1.101396918296814,
+      "loss": 0.004342074791064363,
+      "baseline": 0.9681039312264896
+    },
+    {
+      "episode": 175,
+      "mean_reward": 0.9687150233747464,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98109,
+      "best_acc": 0.9825,
+      "entropy": 1.1039484739303589,
+      "loss": 0.003249970210579222,
+      "baseline": 0.9681344858339025
+    },
+    {
+      "episode": 176,
+      "mean_reward": 0.9662071364522106,
+      "best_reward": 0.9699976994141184,
+      "mean_acc": 0.97827,
+      "best_acc": 0.9823,
+      "entropy": 1.1035066843032837,
+      "loss": -0.034973350592365,
+      "baseline": 0.9680381183648179
+    },
+    {
+      "episode": 177,
+      "mean_reward": 0.9685735805824713,
+      "best_reward": 0.9703963370312582,
+      "mean_acc": 0.9808600000000001,
+      "best_acc": 0.9829,
+      "entropy": 1.1019868850708008,
+      "loss": 0.0022534864096148827,
+      "baseline": 0.9680648914757006
+    },
+    {
+      "episode": 178,
+      "mean_reward": 0.9681548567551118,
+      "best_reward": 0.9714963370312582,
+      "mean_acc": 0.9803599999999999,
+      "best_acc": 0.984,
+      "entropy": 1.1053128242492676,
+      "loss": -0.005378427945158795,
+      "baseline": 0.9680693897396712
+    },
+    {
+      "episode": 179,
+      "mean_reward": 0.9670136355023626,
+      "best_reward": 0.9703074836385693,
+      "mean_acc": 0.9791599999999999,
+      "best_acc": 0.9826,
+      "entropy": 1.1043987274169922,
+      "loss": -0.023004446009988234,
+      "baseline": 0.9680166020278057
+    },
+    {
+      "episode": 180,
+      "mean_reward": 0.9672562134812079,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9794,
+      "best_acc": 0.9825,
+      "entropy": 1.1017472743988037,
+      "loss": -0.01947506454214019,
+      "baseline": 0.9679785826004759
+    },
+    {
+      "episode": 181,
+      "mean_reward": 0.9674346808164934,
+      "best_reward": 0.9714963370312582,
+      "mean_acc": 0.9796999999999999,
+      "best_acc": 0.984,
+      "entropy": 1.1018791198730469,
+      "loss": -0.01812765353583312,
+      "baseline": 0.9679513875112766
+    },
+    {
+      "episode": 182,
+      "mean_reward": 0.9688173610359219,
+      "best_reward": 0.970236273889439,
+      "mean_acc": 0.9812899999999999,
+      "best_acc": 0.9828,
+      "entropy": 1.1037477254867554,
+      "loss": 0.00676224222836193,
+      "baseline": 0.9679946861875088
+    },
+    {
+      "episode": 183,
+      "mean_reward": 0.9682961293616679,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9806500000000001,
+      "best_acc": 0.9819,
+      "entropy": 1.1038557291030884,
+      "loss": -0.0006619945514467198,
+      "baseline": 0.9680097583462167
+    },
+    {
+      "episode": 184,
+      "mean_reward": 0.9679605187448288,
+      "best_reward": 0.9697958618766384,
+      "mean_acc": 0.98016,
+      "best_acc": 0.9823,
+      "entropy": 1.10132896900177,
+      "loss": -0.007945397549655365,
+      "baseline": 0.9680072963661472
+    },
+    {
+      "episode": 185,
+      "mean_reward": 0.9670019717345074,
+      "best_reward": 0.969464173698116,
+      "mean_acc": 0.97941,
+      "best_acc": 0.9819,
+      "entropy": 1.1000704765319824,
+      "loss": -0.017486595271386837,
+      "baseline": 0.9679570301345651
+    },
+    {
+      "episode": 186,
+      "mean_reward": 0.9689642359501086,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.98132,
+      "best_acc": 0.9828,
+      "entropy": 1.1019630432128906,
+      "loss": 0.009125738206947693,
+      "baseline": 0.9680073904253423
+    },
+    {
+      "episode": 187,
+      "mean_reward": 0.9679757780164842,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.98019,
+      "best_acc": 0.9819,
+      "entropy": 1.1022202968597412,
+      "loss": -0.008147092744339121,
+      "baseline": 0.9680058098048994
+    },
+    {
+      "episode": 188,
+      "mean_reward": 0.9682983862077134,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.9807599999999999,
+      "best_acc": 0.9825,
+      "entropy": 1.0988681316375732,
+      "loss": -0.0002091037968136207,
+      "baseline": 0.9680204386250401
+    },
+    {
+      "episode": 189,
+      "mean_reward": 0.968509778413354,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9808600000000001,
+      "best_acc": 0.982,
+      "entropy": 1.1002395153045654,
+      "loss": 0.0016863597963241179,
+      "baseline": 0.9680449056144557
+    },
+    {
+      "episode": 190,
+      "mean_reward": 0.9672391495920124,
+      "best_reward": 0.9696320381231903,
+      "mean_acc": 0.97956,
+      "best_acc": 0.982,
+      "entropy": 1.0976479053497314,
+      "loss": -0.015821143854464283,
+      "baseline": 0.9680046178133335
+    },
+    {
+      "episode": 191,
+      "mean_reward": 0.9688114519214881,
+      "best_reward": 0.9714963370312582,
+      "mean_acc": 0.9811799999999999,
+      "best_acc": 0.984,
+      "entropy": 1.1015901565551758,
+      "loss": 0.005831805449996796,
+      "baseline": 0.9680449595187411
+    },
+    {
+      "episode": 192,
+      "mean_reward": 0.9687367415959047,
+      "best_reward": 0.9702963370312582,
+      "mean_acc": 0.9809599999999999,
+      "best_acc": 0.9828,
+      "entropy": 1.0997127294540405,
+      "loss": 0.00444458146799535,
+      "baseline": 0.9680795486225993
+    },
+    {
+      "episode": 193,
+      "mean_reward": 0.9683879147231662,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.98074,
+      "best_acc": 0.9819,
+      "entropy": 1.0987427234649658,
+      "loss": -0.0003638542937384804,
+      "baseline": 0.9680949669276275
+    },
+    {
+      "episode": 194,
+      "mean_reward": 0.9682726191773362,
+      "best_reward": 0.9698074836385693,
+      "mean_acc": 0.9805399999999999,
+      "best_acc": 0.9821,
+      "entropy": 1.100943922996521,
+      "loss": -0.002134704143236631,
+      "baseline": 0.968103849540113
+    },
+    {
+      "episode": 195,
+      "mean_reward": 0.9683926912469133,
+      "best_reward": 0.9704074836385693,
+      "mean_acc": 0.9808599999999998,
+      "best_acc": 0.9827,
+      "entropy": 1.0976998805999756,
+      "loss": 0.0003013666680565883,
+      "baseline": 0.9681182916254529
+    },
+    {
+      "episode": 196,
+      "mean_reward": 0.9691208703235272,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98148,
+      "best_acc": 0.9825,
+      "entropy": 1.099697470664978,
+      "loss": 0.008458856644446974,
+      "baseline": 0.9681684205603567
+    },
+    {
+      "episode": 197,
+      "mean_reward": 0.9682135457307679,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.98066,
+      "best_acc": 0.9819,
+      "entropy": 1.0999444723129272,
+      "loss": -0.003299794269499775,
+      "baseline": 0.9681706768188771
+    },
+    {
+      "episode": 198,
+      "mean_reward": 0.9689421146916679,
+      "best_reward": 0.9702764313068531,
+      "mean_acc": 0.98125,
+      "best_acc": 0.9825,
+      "entropy": 1.0996732711791992,
+      "loss": 0.004678369978771153,
+      "baseline": 0.9682092487125167
+    },
+    {
+      "episode": 199,
+      "mean_reward": 0.9676733794738009,
+      "best_reward": 0.9696764313068531,
+      "mean_acc": 0.9797600000000001,
+      "best_acc": 0.9819,
+      "entropy": 1.101289987564087,
+      "loss": -0.014073671131478522,
+      "baseline": 0.9681824552505809
+    },
+    {
+      "episode": 200,
+      "mean_reward": 0.967974730664718,
+      "best_reward": 0.970764173698116,
+      "mean_acc": 0.98018,
+      "best_acc": 0.9832,
+      "entropy": 1.1006883382797241,
+      "loss": -0.011824485301880173,
+      "baseline": 0.9681720690212877
+    }
+  ],
+  "best_architecture": {
+    "val_acc": 0.984,
+    "train_acc": 0.9876,
+    "train_time": 21.444055795669556,
+    "n_params": 269322,
+    "config": {
+      "n_layers": 2,
+      "hidden_sizes": [
+        256,
+        256
+      ],
+      "activations": [
+        "relu",
+        "relu"
+      ],
+      "dropouts": [
+        0.2,
+        0.3
+      ]
+    },
+    "best_epoch": 7
+  }
+}
