@@ -158,19 +158,45 @@ def plot_rl_metrics(results_file: str, output_file: Optional[str] = None):
     plt.close()
 
 
-def plot_proxy_correlation(architectures: List[Dict], proxy_name: str, output_file: Optional[str] = None):
+def plot_proxy_correlation(architectures: List[Dict], proxy_name: str, correlation: float, output_file: Optional[str] = None):
     """Plot correlation between proxy scores and actual accuracy.
 
     Args:
         architectures: List of evaluated architectures with scores
         proxy_name: Name of proxy ('grad_norm' or 'synflow')
+        correlation: Spearman correlation coefficient
         output_file: Path to save plot
     """
-    # TODO: Implement proxy correlation scatter plot
-    # X-axis: proxy score
-    # Y-axis: actual validation accuracy
-    # Include Spearman correlation coefficient
-    raise NotImplementedError
+    # Extract data
+    proxy_scores = np.array([arch[proxy_name] for arch in architectures])
+    accuracies = np.array([arch['val_acc'] for arch in architectures])
+
+    # Create scatter plot
+    plt.figure(figsize=(10, 6))
+    plt.scatter(proxy_scores, accuracies, alpha=0.6, s=50, edgecolors='k', linewidths=0.5)
+
+    # Add best fit line
+    z = np.polyfit(proxy_scores, accuracies, 1)
+    p = np.poly1d(z)
+    x_line = np.linspace(proxy_scores.min(), proxy_scores.max(), 100)
+    plt.plot(x_line, p(x_line), "r--", alpha=0.8, linewidth=2, label=f'Linear fit')
+
+    # Labels and title
+    proxy_label = 'Gradient Norm' if proxy_name == 'grad_norm' else 'SynFlow Score'
+    plt.xlabel(proxy_label, fontsize=12)
+    plt.ylabel('Validation Accuracy', fontsize=12)
+    plt.title(f'{proxy_label} vs Validation Accuracy\nSpearman ρ = {correlation:.4f}', fontsize=14)
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+
+    # Save or show
+    if output_file:
+        plt.savefig(output_file, dpi=150, bbox_inches='tight')
+    else:
+        plt.show()
+
+    plt.close()
 
 
 def plot_search_space_heatmap(architectures: List[Dict], output_file: Optional[str] = None):

@@ -25,12 +25,33 @@ def grad_norm(model: nn.Module, data_loader: DataLoader, device: str = 'cpu') ->
     Returns:
         score: Gradient norm (higher is better)
     """
-    # TODO: Implement gradient norm proxy
-    # 1. Get a single batch
-    # 2. Forward pass + compute loss
-    # 3. Backward pass
-    # 4. Compute L2 norm of all gradients
-    raise NotImplementedError
+    model = model.to(device)
+    model.train()
+
+    # Get a single batch
+    data, target = next(iter(data_loader))
+    data, target = data.to(device), target.to(device)
+
+    # Flatten data for MLP
+    data = data.view(data.size(0), -1)
+
+    # Forward pass
+    output = model(data)
+    loss = nn.CrossEntropyLoss()(output, target)
+
+    # Backward pass
+    model.zero_grad()
+    loss.backward()
+
+    # Compute L2 norm of all gradients
+    total_norm = 0.0
+    for p in model.parameters():
+        if p.grad is not None:
+            param_norm = p.grad.data.norm(2)
+            total_norm += param_norm.item() ** 2
+    total_norm = total_norm ** 0.5
+
+    return total_norm
 
 
 def synflow(model: nn.Module, input_shape: tuple, device: str = 'cpu') -> float:
@@ -41,19 +62,43 @@ def synflow(model: nn.Module, input_shape: tuple, device: str = 'cpu') -> float:
 
     Args:
         model: PyTorch model
-        input_shape: Shape of input tensor (batch_size, *dims)
+        input_shape: Shape of input tensor (batch_size, *dims) or just input_size as int
         device: Device to compute on
 
     Returns:
         score: SynFlow score (higher is better)
     """
-    # TODO: Implement SynFlow proxy
-    # 1. Create synthetic input (all ones)
-    # 2. Linearize network (convert all activations to linear)
-    # 3. Forward pass with synthetic input
-    # 4. Backward pass with output sum as loss
-    # 5. Compute sum of |param * grad|
-    raise NotImplementedError
+    model = model.to(device)
+    model.train()
+
+    # Handle input_shape as int or tuple
+    if isinstance(input_shape, int):
+        input_size = input_shape
+        synthetic_input = torch.ones(1, input_size).to(device)
+    else:
+        synthetic_input = torch.ones(input_shape).to(device)
+        # Flatten for MLP
+        synthetic_input = synthetic_input.view(synthetic_input.size(0), -1)
+
+    # Forward pass
+    output = model(synthetic_input)
+
+    # Compute sum of outputs as the loss
+    # (SynFlow uses this to propagate gradients uniformly)
+    loss = output.sum()
+
+    # Backward pass
+    model.zero_grad()
+    loss.backward()
+
+    # Compute SynFlow score: sum of |param| * |grad|
+    synflow_score = 0.0
+    for p in model.parameters():
+        if p.grad is not None:
+            score = (p.data.abs() * p.grad.data.abs()).sum().item()
+            synflow_score += score
+
+    return synflow_score
 
 
 def compute_proxies(model: nn.Module, data_loader: DataLoader, input_shape: tuple, device: str = 'cpu') -> Dict[str, float]:
@@ -62,13 +107,15 @@ def compute_proxies(model: nn.Module, data_loader: DataLoader, input_shape: tupl
     Args:
         model: PyTorch model
         data_loader: DataLoader for gradient norm
-        input_shape: Input shape for SynFlow
+        input_shape: Input shape for SynFlow (can be int or tuple)
         device: Device to compute on
 
     Returns:
         scores: Dictionary of proxy scores
     """
+    gn = grad_norm(model, data_loader, device)
+    sf = synflow(model, input_shape, device)
     return {
-        'grad_norm': grad_norm(model, data_loader, device),
-        'synflow': synflow(model, input_shape, device)
+        'grad_norm': gn,
+        'synflow': sf
     }
