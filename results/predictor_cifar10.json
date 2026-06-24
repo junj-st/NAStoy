@@ -1,0 +1,43 @@
+{
+  "dataset": "cifar10",
+  "n_architectures": 154,
+  "n_train": 123,
+  "n_test": 31,
+  "models": {
+    "Linear (Ridge)": {
+      "train_r2": 0.7292367376756771,
+      "test_r2": 0.6926837868777076,
+      "test_mae": 0.018154024830198318,
+      "test_spearman": 0.7845548986337417,
+      "test_pearson": 0.8546344349145526
+    },
+    "Linear (Lasso)": {
+      "train_r2": 0.723420618262102,
+      "test_r2": 0.7115686487782888,
+      "test_mae": 0.018373917944262668,
+      "test_spearman": 0.7976406533575315,
+      "test_pearson": 0.8593179604432303
+    },
+    "Random Forest": {
+      "train_r2": 0.9851207095697895,
+      "test_r2": 0.8687632868266337,
+      "test_mae": 0.011892264055299546,
+      "test_spearman": 0.9319487898959533,
+      "test_pearson": 0.9387032635780463
+    },
+    "Gradient Boosting": {
+      "train_r2": 0.9998921038889437,
+      "test_r2": 0.8652228849304622,
+      "test_mae": 0.011513020880348545,
+      "test_spearman": 0.9519104796838589,
+      "test_pearson": 0.9371127290905755
+    },
+    "Neural Network": {
+      "train_r2": -0.8090589381226929,
+      "test_r2": -6.399323575545502,
+      "test_mae": 0.093891530155667,
+      "test_spearman": 0.050609940775396864,
+      "test_pearson": 0.19450463868736867
+    }
+  }
+}
