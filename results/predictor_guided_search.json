@@ -1,0 +1,285 @@
+{
+  "dataset": "cifar10",
+  "n_candidates": 10000,
+  "top_k_evaluated": 10,
+  "results": [
+    {
+      "val_acc": 0.557,
+      "train_acc": 0.6961,
+      "train_time": 83.07407879829407,
+      "n_params": 920842,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 14,
+      "predicted_acc": 0.5427247242272943,
+      "rank": 10
+    },
+    {
+      "val_acc": 0.5548,
+      "train_acc": 0.64562,
+      "train_time": 79.08934092521667,
+      "n_params": 920842,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 12,
+      "predicted_acc": 0.5501411781104735,
+      "rank": 1
+    },
+    {
+      "val_acc": 0.5542,
+      "train_acc": 0.63982,
+      "train_time": 87.615718126297,
+      "n_params": 886666,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 19,
+      "predicted_acc": 0.5481271956454742,
+      "rank": 2
+    },
+    {
+      "val_acc": 0.5511,
+      "train_acc": 0.62424,
+      "train_time": 54.59033918380737,
+      "n_params": 837386,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.1
+        ]
+      },
+      "best_epoch": 13,
+      "predicted_acc": 0.5431441321445003,
+      "rank": 9
+    },
+    {
+      "val_acc": 0.5488,
+      "train_acc": 0.65882,
+      "train_time": 70.2627100944519,
+      "n_params": 886666,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 13,
+      "predicted_acc": 0.546641919988465,
+      "rank": 3
+    },
+    {
+      "val_acc": 0.5484,
+      "train_acc": 0.61414,
+      "train_time": 43.159035205841064,
+      "n_params": 861162,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          128,
+          256,
+          32
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 10,
+      "predicted_acc": 0.5433879756051854,
+      "rank": 8
+    },
+    {
+      "val_acc": 0.5429,
+      "train_acc": 0.60966,
+      "train_time": 53.82969284057617,
+      "n_params": 812746,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          64,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 14,
+      "predicted_acc": 0.5453557919277099,
+      "rank": 5
+    },
+    {
+      "val_acc": 0.538,
+      "train_acc": 0.58658,
+      "train_time": 45.1830952167511,
+      "n_params": 920842,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 10,
+      "predicted_acc": 0.5465874436856539,
+      "rank": 4
+    },
+    {
+      "val_acc": 0.535,
+      "train_acc": 0.59792,
+      "train_time": 34.13969302177429,
+      "n_params": 886666,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.0,
+          0.1
+        ]
+      },
+      "best_epoch": 7,
+      "predicted_acc": 0.5442601630731703,
+      "rank": 7
+    },
+    {
+      "val_acc": 0.5324,
+      "train_acc": 0.68836,
+      "train_time": 27.53747797012329,
+      "n_params": 920842,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "best_epoch": 5,
+      "predicted_acc": 0.5448493557872223,
+      "rank": 6
+    }
+  ],
+  "summary": {
+    "best_acc": 0.557,
+    "mean_acc": 0.5462600000000001,
+    "prediction_quality": 0.1727489384177555
+  }
+}

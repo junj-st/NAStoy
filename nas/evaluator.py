@@ -65,6 +65,13 @@ class Evaluator:
             ])
             train_dataset = datasets.MNIST('./data', train=True, download=True, transform=transform)
             val_dataset = datasets.MNIST('./data', train=False, transform=transform)
+        elif self.dataset == 'fashionmnist':
+            transform = transforms.Compose([
+                transforms.ToTensor(),
+                transforms.Normalize((0.2860,), (0.3530,))  # Fashion-MNIST stats
+            ])
+            train_dataset = datasets.FashionMNIST('./data', train=True, download=True, transform=transform)
+            val_dataset = datasets.FashionMNIST('./data', train=False, transform=transform)
         elif self.dataset == 'cifar10':
             transform = transforms.Compose([
                 transforms.ToTensor(),
