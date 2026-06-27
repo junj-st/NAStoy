@@ -1,0 +1,923 @@
+{
+  "source_dataset": "mnist",
+  "target_dataset": "fashionmnist",
+  "n_candidates": 5000,
+  "top_k_evaluated": 20,
+  "transfer_results": [
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 1
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 2
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 3
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 4
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 5
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 6
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 7
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 8
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 9
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 10
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 11
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 12
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 13
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 14
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 15
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 16
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 17
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 18
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 19
+    },
+    {
+      "val_acc": 0.8784,
+      "train_acc": 0.8915833333333333,
+      "train_time": 26.374510049819946,
+      "n_params": 101770,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          128
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 8,
+      "predicted_acc": 1.114598933917246,
+      "rank": 20
+    }
+  ],
+  "baseline_results": [
+    {
+      "val_acc": 0.865,
+      "train_acc": 0.8775166666666666,
+      "train_time": 24.379930019378662,
+      "n_params": 220906,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          256,
+          32,
+          64,
+          128
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "sigmoid",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.0,
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8623,
+      "train_acc": 0.8544166666666667,
+      "train_time": 18.348746061325073,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "relu"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.8517,
+      "train_acc": 0.8500166666666666,
+      "train_time": 24.400872945785522,
+      "n_params": 96554,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          32,
+          128,
+          256,
+          128
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "relu",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.2,
+          0.3,
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.8752,
+      "train_acc": 0.8823833333333333,
+      "train_time": 23.37109899520874,
+      "n_params": 113546,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          64,
+          64
+        ],
+        "activations": [
+          "sigmoid",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.883,
+      "train_acc": 0.8945166666666666,
+      "train_time": 27.508708000183105,
+      "n_params": 335114,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          256,
+          256
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.8671,
+      "train_acc": 0.8666666666666667,
+      "train_time": 23.382996797561646,
+      "n_params": 30634,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          128
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.8534,
+      "train_acc": 0.8425333333333334,
+      "train_time": 26.57394528388977,
+      "n_params": 86122,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          256,
+          32,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.3,
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8863,
+      "train_acc": 0.9169166666666667,
+      "train_time": 24.041518211364746,
+      "n_params": 203530,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          256
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8788,
+      "train_acc": 0.9040666666666667,
+      "train_time": 24.921104192733765,
+      "n_params": 144426,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          128,
+          32,
+          128,
+          256
+        ],
+        "activations": [
+          "tanh",
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 6
+    },
+    {
+      "val_acc": 0.8685,
+      "train_acc": 0.8707333333333334,
+      "train_time": 21.855756759643555,
+      "n_params": 27882,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8541,
+      "train_acc": 0.8470333333333333,
+      "train_time": 27.31604504585266,
+      "n_params": 25450,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          32
+        ],
+        "activations": [
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8787,
+      "train_acc": 0.88735,
+      "train_time": 28.974594116210938,
+      "n_params": 121450,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          128,
+          32
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.2,
+          0.0
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8734,
+      "train_acc": 0.8742333333333333,
+      "train_time": 35.72261714935303,
+      "n_params": 88138,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          256,
+          64,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.3,
+          0.0,
+          0.0,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8679,
+      "train_acc": 0.87195,
+      "train_time": 37.005592823028564,
+      "n_params": 108682,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          64,
+          128,
+          256,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "tanh",
+          "tanh",
+          "tanh"
+        ],
+        "dropouts": [
+          0.2,
+          0.3,
+          0.0,
+          0.3
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8807,
+      "train_acc": 0.9028666666666667,
+      "train_time": 36.494428873062134,
+      "n_params": 242762,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          256,
+          128,
+          64
+        ],
+        "activations": [
+          "tanh",
+          "sigmoid",
+          "tanh"
+        ],
+        "dropouts": [
+          0.1,
+          0.0,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8751,
+      "train_acc": 0.8862666666666666,
+      "train_time": 31.531059980392456,
+      "n_params": 115626,
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          32,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.3,
+          0.2
+        ]
+      },
+      "best_epoch": 7
+    },
+    {
+      "val_acc": 0.8708,
+      "train_acc": 0.8764833333333333,
+      "train_time": 29.49078392982483,
+      "n_params": 27882,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          32,
+          64
+        ],
+        "activations": [
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.1,
+          0.2
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8722,
+      "train_acc": 0.8780333333333333,
+      "train_time": 30.62045407295227,
+      "n_params": 69450,
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          64,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.1
+        ]
+      },
+      "best_epoch": 9
+    },
+    {
+      "val_acc": 0.8497,
+      "train_acc": 0.83015,
+      "train_time": 40.685835123062134,
+      "n_params": 112234,
+      "config": {
+        "n_layers": 4,
+        "hidden_sizes": [
+          32,
+          64,
+          256,
+          256
+        ],
+        "activations": [
+          "sigmoid",
+          "sigmoid",
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.3,
+          0.1,
+          0.1,
+          0.3
+        ]
+      },
+      "best_epoch": 8
+    },
+    {
+      "val_acc": 0.8764,
+      "train_acc": 0.89395,
+      "train_time": 41.493136167526245,
+      "n_params": 50890,
+      "config": {
+        "n_layers": 1,
+        "hidden_sizes": [
+          64
+        ],
+        "activations": [
+          "tanh"
+        ],
+        "dropouts": [
+          0.1
+        ]
+      },
+      "best_epoch": 7
+    }
+  ],
+  "summary": {
+    "transfer_best": 0.8784,
+    "transfer_mean": 0.8783999999999998,
+    "baseline_best": 0.8863,
+    "baseline_mean": 0.8695149999999998,
+    "improvement_best": -0.7900000000000018,
+    "improvement_mean": 0.8885000000000032
+  }
+}
