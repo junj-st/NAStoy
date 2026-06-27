@@ -28,7 +28,8 @@ class Evaluator:
         batch_size: int = 128,
         learning_rate: float = 0.001,
         cache_dir: Optional[str] = None,
-        device: Optional[str] = None
+        device: Optional[str] = None,
+        save_curves: bool = False
     ):
         """
         Args:
@@ -38,6 +39,7 @@ class Evaluator:
             learning_rate: Learning rate for optimizer
             cache_dir: Directory to cache evaluation results
             device: Device to train on ('cuda' or 'cpu')
+            save_curves: Whether to save per-epoch learning curves
         """
         self.dataset = dataset
         self.train_budget = train_budget
@@ -45,6 +47,7 @@ class Evaluator:
         self.learning_rate = learning_rate
         self.cache_dir = Path(cache_dir) if cache_dir else None
         self.device = device or ('cuda' if torch.cuda.is_available() else 'cpu')
+        self.save_curves = save_curves
 
         if self.cache_dir:
             self.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -171,6 +174,9 @@ class Evaluator:
         patience = 3
         epochs_without_improvement = 0
 
+        # Learning curves
+        learning_curve = []
+
         start_time = time.time()
 
         for epoch in range(self.train_budget):
@@ -179,6 +185,14 @@ class Evaluator:
 
             # Validate
             val_acc = self._validate(model, criterion)
+
+            # Save curve data
+            if self.save_curves:
+                learning_curve.append({
+                    'epoch': epoch,
+                    'train_acc': train_acc,
+                    'val_acc': val_acc
+                })
 
             # Check for improvement
             if val_acc > best_val_acc:
@@ -203,6 +217,9 @@ class Evaluator:
             'config': config,
             'best_epoch': best_epoch
         }
+
+        if self.save_curves:
+            result['learning_curve'] = learning_curve
 
         # Cache result
         self._save_to_cache(cache_key, result)
