@@ -1,0 +1,1089 @@
+{
+  "train_datasets": [
+    "mnist",
+    "cifar10"
+  ],
+  "test_dataset": "fashionmnist",
+  "train_info": {
+    "n_architectures": 295,
+    "datasets": [
+      "cifar10",
+      "mnist"
+    ],
+    "X_shape": [
+      295,
+      15
+    ]
+  },
+  "test_results": {
+    "results": [
+      {
+        "predicted": 0.6840992197223618,
+        "actual": 0.8503,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            64,
+            64,
+            256,
+            32
+          ],
+          "activations": [
+            "tanh",
+            "sigmoid",
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.7212081257587369,
+        "actual": 0.8776,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            128,
+            64,
+            32
+          ],
+          "activations": [
+            "sigmoid",
+            "sigmoid",
+            "tanh"
+          ],
+          "dropouts": [
+            0.2,
+            0.0,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7014967078633826,
+        "actual": 0.8704,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            32,
+            32
+          ],
+          "activations": [
+            "tanh",
+            "relu"
+          ],
+          "dropouts": [
+            0.0,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7360167099493927,
+        "actual": 0.8742,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            64,
+            32,
+            64
+          ],
+          "activations": [
+            "relu",
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.0,
+            0.3,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7286949901594886,
+        "actual": 0.8814,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            128,
+            128,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "tanh",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.0,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.6891944885323077,
+        "actual": 0.8612,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            32,
+            256,
+            256
+          ],
+          "activations": [
+            "tanh",
+            "tanh",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.3,
+            0.3,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7329940992239895,
+        "actual": 0.882,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            128
+          ],
+          "activations": [
+            "relu"
+          ],
+          "dropouts": [
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7518915954741371,
+        "actual": 0.8816,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            128,
+            32,
+            64
+          ],
+          "activations": [
+            "relu",
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.715519447172408,
+        "actual": 0.8729,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            32
+          ],
+          "activations": [
+            "relu"
+          ],
+          "dropouts": [
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7301817893275225,
+        "actual": 0.8766,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            256,
+            128,
+            256,
+            64
+          ],
+          "activations": [
+            "sigmoid",
+            "sigmoid",
+            "relu",
+            "tanh"
+          ],
+          "dropouts": [
+            0.1,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.7540003271475905,
+        "actual": 0.8869,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            256,
+            128,
+            64
+          ],
+          "activations": [
+            "relu",
+            "tanh",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.1,
+            0.1,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7119056815436978,
+        "actual": 0.8596,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            32,
+            64
+          ],
+          "activations": [
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.3,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7613509172435595,
+        "actual": 0.887,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            256,
+            256
+          ],
+          "activations": [
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.0,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7364898698047456,
+        "actual": 0.8739,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            64,
+            32
+          ],
+          "activations": [
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.1,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7178443978501475,
+        "actual": 0.8791,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            64,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "relu"
+          ],
+          "dropouts": [
+            0.0,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.8110565997276056,
+        "actual": 0.8784,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            128
+          ],
+          "activations": [
+            "relu"
+          ],
+          "dropouts": [
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.757112056438047,
+        "actual": 0.8739,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            128,
+            128,
+            64,
+            128
+          ],
+          "activations": [
+            "tanh",
+            "relu",
+            "tanh",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.1,
+            0.2,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.6865352016612262,
+        "actual": 0.8538,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            32,
+            64,
+            128,
+            32
+          ],
+          "activations": [
+            "tanh",
+            "tanh",
+            "tanh",
+            "tanh"
+          ],
+          "dropouts": [
+            0.3,
+            0.2,
+            0.1,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.733569993709731,
+        "actual": 0.8638,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            32,
+            128,
+            32
+          ],
+          "activations": [
+            "relu",
+            "sigmoid",
+            "relu"
+          ],
+          "dropouts": [
+            0.2,
+            0.2,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.7022245835167624,
+        "actual": 0.8673,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            32,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "tanh"
+          ],
+          "dropouts": [
+            0.1,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7420371315099424,
+        "actual": 0.8853,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            256,
+            256
+          ],
+          "activations": [
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.3,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.7356929747256782,
+        "actual": 0.8861,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            256,
+            256,
+            32,
+            64
+          ],
+          "activations": [
+            "sigmoid",
+            "relu",
+            "tanh",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.7272328836032544,
+        "actual": 0.8858,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            256
+          ],
+          "activations": [
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7277406915180233,
+        "actual": 0.8804,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            256,
+            64,
+            256,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "sigmoid",
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.1,
+            0.0,
+            0.3,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.6962049183938812,
+        "actual": 0.869,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            32,
+            256,
+            128
+          ],
+          "activations": [
+            "tanh",
+            "tanh",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.7540829799076205,
+        "actual": 0.8873,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            256,
+            256,
+            32
+          ],
+          "activations": [
+            "relu",
+            "tanh",
+            "relu"
+          ],
+          "dropouts": [
+            0.2,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.7527300253870876,
+        "actual": 0.8839,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            256
+          ],
+          "activations": [
+            "relu"
+          ],
+          "dropouts": [
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.7213000825151935,
+        "actual": 0.8757,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            256,
+            64,
+            32
+          ],
+          "activations": [
+            "sigmoid",
+            "sigmoid",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.0,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.6924317040246706,
+        "actual": 0.8574,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            32,
+            64,
+            256,
+            256
+          ],
+          "activations": [
+            "sigmoid",
+            "sigmoid",
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.0,
+            0.0,
+            0.0,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.6944189223981616,
+        "actual": 0.8638,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            32,
+            256,
+            256
+          ],
+          "activations": [
+            "sigmoid",
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.3,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.6636262931038602,
+        "actual": 0.8518,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            32,
+            32
+          ],
+          "activations": [
+            "tanh",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.3,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7133535717400987,
+        "actual": 0.8524,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            32,
+            32,
+            256,
+            64
+          ],
+          "activations": [
+            "relu",
+            "sigmoid",
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.3,
+            0.0,
+            0.2,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.733422101052715,
+        "actual": 0.8835,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            256,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "relu"
+          ],
+          "dropouts": [
+            0.3,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7270392314081002,
+        "actual": 0.8785,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            256,
+            32,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "relu",
+            "tanh"
+          ],
+          "dropouts": [
+            0.0,
+            0.2,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.7390910088943787,
+        "actual": 0.8818,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            256,
+            256,
+            128,
+            64
+          ],
+          "activations": [
+            "relu",
+            "sigmoid",
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.2,
+            0.3,
+            0.3,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.6969690228187038,
+        "actual": 0.8688,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            64,
+            64,
+            32,
+            64
+          ],
+          "activations": [
+            "tanh",
+            "tanh",
+            "sigmoid",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.0,
+            0.0,
+            0.0,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.755675898091609,
+        "actual": 0.8841,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            256,
+            64,
+            32
+          ],
+          "activations": [
+            "relu",
+            "relu",
+            "relu"
+          ],
+          "dropouts": [
+            0.2,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.7551485156020339,
+        "actual": 0.8892,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            256
+          ],
+          "activations": [
+            "relu"
+          ],
+          "dropouts": [
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.7419225988057107,
+        "actual": 0.8778,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            128,
+            128,
+            64,
+            64
+          ],
+          "activations": [
+            "relu",
+            "tanh",
+            "sigmoid",
+            "tanh"
+          ],
+          "dropouts": [
+            0.3,
+            0.3,
+            0.3,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.45912802965390626,
+        "actual": 0.877,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            128
+          ],
+          "activations": [
+            "tanh"
+          ],
+          "dropouts": [
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.6897776600742271,
+        "actual": 0.8652,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            32,
+            128
+          ],
+          "activations": [
+            "sigmoid",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.0,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.45912802965390626,
+        "actual": 0.877,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            128
+          ],
+          "activations": [
+            "tanh"
+          ],
+          "dropouts": [
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.72876080341063,
+        "actual": 0.8772,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            128,
+            256,
+            64
+          ],
+          "activations": [
+            "sigmoid",
+            "relu",
+            "sigmoid"
+          ],
+          "dropouts": [
+            0.2,
+            0.2,
+            0.3
+          ]
+        }
+      },
+      {
+        "predicted": 0.7434087709290657,
+        "actual": 0.8772,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            64,
+            64,
+            32,
+            64
+          ],
+          "activations": [
+            "relu",
+            "relu",
+            "sigmoid",
+            "relu"
+          ],
+          "dropouts": [
+            0.1,
+            0.1,
+            0.2,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7552843284684669,
+        "actual": 0.8862,
+        "config": {
+          "n_layers": 1,
+          "hidden_sizes": [
+            256
+          ],
+          "activations": [
+            "relu"
+          ],
+          "dropouts": [
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.7491670419449866,
+        "actual": 0.8871,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            256,
+            32,
+            128,
+            256
+          ],
+          "activations": [
+            "relu",
+            "tanh",
+            "sigmoid",
+            "relu"
+          ],
+          "dropouts": [
+            0.0,
+            0.1,
+            0.3,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.6999474766453788,
+        "actual": 0.8789,
+        "config": {
+          "n_layers": 2,
+          "hidden_sizes": [
+            64,
+            64
+          ],
+          "activations": [
+            "tanh",
+            "tanh"
+          ],
+          "dropouts": [
+            0.1,
+            0.0
+          ]
+        }
+      },
+      {
+        "predicted": 0.726790928712383,
+        "actual": 0.8719,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            256,
+            32,
+            256
+          ],
+          "activations": [
+            "sigmoid",
+            "relu",
+            "tanh"
+          ],
+          "dropouts": [
+            0.3,
+            0.2,
+            0.1
+          ]
+        }
+      },
+      {
+        "predicted": 0.6825970121826196,
+        "actual": 0.8636,
+        "config": {
+          "n_layers": 4,
+          "hidden_sizes": [
+            64,
+            64,
+            32,
+            32
+          ],
+          "activations": [
+            "sigmoid",
+            "tanh",
+            "relu",
+            "tanh"
+          ],
+          "dropouts": [
+            0.3,
+            0.2,
+            0.3,
+            0.2
+          ]
+        }
+      },
+      {
+        "predicted": 0.6981988761161606,
+        "actual": 0.8748,
+        "config": {
+          "n_layers": 3,
+          "hidden_sizes": [
+            64,
+            32,
+            128
+          ],
+          "activations": [
+            "tanh",
+            "relu",
+            "tanh"
+          ],
+          "dropouts": [
+            0.0,
+            0.3,
+            0.0
+          ]
+        }
+      }
+    ],
+    "metrics": {
+      "spearman_rho": 0.7303637910654419,
+      "pearson_r": 0.2966614069980827,
+      "r2": -271.9596363586195,
+      "mae": 0.16009807369761409,
+      "strength": "STRONG"
+    }
+  },
+  "comparison": {
+    "meta_rho": 0.7303637910654419,
+    "single_rho": 0.8079148958936794,
+    "improvement": -0.07755110482823746
+  }
+}
