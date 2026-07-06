@@ -1,0 +1,132 @@
+{
+  "dataset": "cifar10",
+  "fidelity_correlations": {
+    "low": {
+      "spearman_rho": 0.634473156322283,
+      "pearson_r": 0.6007824533058918,
+      "avg_time": 1.4810837125778198,
+      "speedup": 36.25913236182766
+    },
+    "medium": {
+      "spearman_rho": 0.8520590729276085,
+      "pearson_r": 0.8458837193563472,
+      "avg_time": 7.684594535827637,
+      "speedup": 6.988372662074674
+    },
+    "high": {
+      "spearman_rho": 0.9832404917402996,
+      "pearson_r": 0.9718893585393638,
+      "avg_time": 50.05219169139862,
+      "speedup": 1.0729362403232188
+    }
+  },
+  "sha_results": [
+    {
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          64,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu",
+          "sigmoid"
+        ],
+        "dropouts": [
+          0.2,
+          0.1,
+          0.0
+        ]
+      },
+      "full_acc": 0.5412
+    },
+    {
+      "config": {
+        "n_layers": 2,
+        "hidden_sizes": [
+          256,
+          64
+        ],
+        "activations": [
+          "relu",
+          "relu"
+        ],
+        "dropouts": [
+          0.1,
+          0.0
+        ]
+      },
+      "full_acc": 0.5383
+    },
+    {
+      "config": {
+        "n_layers": 3,
+        "hidden_sizes": [
+          128,
+          256,
+          128
+        ],
+        "activations": [
+          "relu",
+          "tanh",
+          "relu"
+        ],
+        "dropouts": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "full_acc": 0.5304
+    }
+  ],
+  "sha_history": {
+    "rungs": [
+      {
+        "fidelity": "low",
+        "n_evaluated": 81,
+        "best_acc": 0.4424,
+        "rung_cost": 124.40153527259827
+      },
+      {
+        "fidelity": "medium",
+        "n_evaluated": 27,
+        "best_acc": 0.4954,
+        "rung_cost": 218.6544463634491
+      },
+      {
+        "fidelity": "high",
+        "n_evaluated": 9,
+        "best_acc": 0.5269,
+        "rung_cost": 285.37724781036377
+      },
+      {
+        "fidelity": "full",
+        "n_evaluated": 3,
+        "best_acc": 0.5412,
+        "rung_cost": 163.23425126075745
+      }
+    ],
+    "total_cost": 791.6674807071686
+  },
+  "comparison": {
+    "sha": {
+      "best": 0.5412,
+      "mean": 0.5366333333333333,
+      "cost": 791.6674807071686,
+      "n_full": 3.0
+    },
+    "baseline": {
+      "best": 0.5421,
+      "mean": 0.46059166666666673,
+      "cost": 631.8333704471588,
+      "n_full": 12.0
+    },
+    "improvement": {
+      "best": -0.09000000000000119,
+      "mean": 7.604166666666656
+    }
+  }
+}
