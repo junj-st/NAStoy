@@ -6,6 +6,11 @@ This project implements three NAS strategies:
 - **Random Search**: Baseline uniform sampling
 - **Evolutionary Search**: Population-based with mutation and selection
 - **RL Controller**: REINFORCE-based autoregressive architecture generation
+- **Predictor-Guided Search**: Uses a surrogate model to filter candidates before evaluation
+- **Early Stopping Predictor**: LSTM-based predictor to estimate final accuracy from partial training curves
+- **Multi-Fidelity Optimization**: Successive Halving for efficient resource allocation
+- **DARTS**: Gradient-based differentiable architecture search
+- **Hardware-Aware NAS**: Multi-objective optimization for accuracy, latency, size, and FLOPs
 
 ## Search Space
 
@@ -63,6 +68,15 @@ Run RL-based search on CIFAR-10:
 python experiments/cifar10_rl.py
 ```
 
+Advanced experiments:
+```bash
+python experiments/predictor_guided_search.py    # Surrogate-based search
+python experiments/early_stopping_predictor.py   # Learning curve prediction
+python experiments/multi_fidelity_search.py      # Successive Halving
+python experiments/darts_search.py               # Gradient-based NAS
+python experiments/hardware_aware_nas.py         # Hardware-aware optimization
+```
+
 ## Analysis
 
 See [FINDINGS.md](FINDINGS.md) for detailed analysis and research insights.
@@ -72,3 +86,7 @@ See [FINDINGS.md](FINDINGS.md) for detailed analysis and research insights.
 - Zoph & Le (2017). Neural Architecture Search with Reinforcement Learning
 - Real et al. (2019). Regularized Evolution for Image Classifier Architecture Search
 - Abdelfattah et al. (2021). Zero-Cost Proxies for Lightweight NAS
+- Liu et al. (2019). DARTS: Differentiable Architecture Search
+- Li et al. (2020). Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization
+- Cai et al. (2020). Once-for-All: Train One Network and Specialize it for Efficient Deployment
+- Baker et al. (2018). Accelerating Neural Architecture Search using Performance Prediction
